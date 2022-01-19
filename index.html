@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img src="img/logo.png" alt="logo image" />
+        <h1>MAKING A BETTER TOMORROW</h1>
+      </div>
+      <div id="toggle"></div>
+      <div id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#work">What We Do</a></li>
+          <li><a href="#contact">Conatact Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <div class="slide first">
+          <img src="img/1.png" alt="image" />
+        </div>
+        <div class="slide">
+          <img src="img/2.png" alt="image" />
+        </div>
+        <div class="slide">
+          <img src="img/3.png" alt="image" />
+        </div>
+      </div>
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card">
+        <div class="card-image"><img src="img/card img 1.png" alt="img" /></div>
+        <div class="card-content">
+          <h1>FEED THE NEEDY</h1>
+          <h2>Let us fight hunger together</h2>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image"><img src="img/card img 2.png" alt="img" /></div>
+        <div class="card-content">
+          <h1>KNOWLEDGE IS NEVER LOST</h1>
+          <h2>A book for every child</h2>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image"><img src="img/card img 3.png" alt="img" /></div>
+        <div class="card-content">
+          <h1>DONATE A BLANKET</h1>
+          <h2>It is better to donate than accumulate</h2>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image"><img src="img/card img 4.png" alt="img" /></div>
+        <div class="card-content">
+          <h1>HAPPINESS KIT</h1>
+          <h2>Donate School Supply</h2>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+    <section class="about-page">
+      <div class="about">
+        <div class="about-img">
+          <img src="img/photo background.png" alt="" />
+        </div>
+        <div class="about-content">
+          <h1>What is Shivanjali?</h1>
+          <p>
+            Shivanjali is a leading Non-profit welfare functioning towards
+            Empowering youth evolution. Shivanjali trusts that effervescent,
+            empowered and earnest young people hold the power to change the
+            world to a better place if the latter is enlightened with a guided
+            call to action. The organization works with the young blood who have
+            eager to serve the community for the greater future and it also
+            helps them to ensure their self-development contribute to social
+            change through various campaigns, workshops, training, exploration,
+            and activities.
+          </p>
+          <hr />
+        </div>
+        <!-- <img id="ai01" src="img/sun img .png" alt="image" /> -->
+      </div>
+      <div class="about">
+        <div class="about-content">
+          <h1>How did we start?</h1>
+          <p>
+            In 2019, we started an education project, which was focused on
+            distributing food to local schools. The next step in this project
+            was the 'Summer Break Programme 2020', which included various
+            activities such as drama, music, and dance. During the 15-day event,
+            which ended on March 27, 2020, we distributed clothes and meals to
+            over 500 children in 15 local slums. In the following 18 days,
+            around 120 ration kits were distributed in Jhotwara and Vaishali
+            Nagar. These included rice, wheat, moong dal, oil, and soap. As
+            well, we had a team of over 50 volunteers who helped in identify
+            potential donors in India.
+          </p>
+          <hr />
+        </div>
+        <div class="about-img">
+          <img src="img/photo background 2.png" alt="" />
+        </div>
+        <!-- <img id="ai02" src="img/check box pattern.png" alt="image" /> -->
+      </div>
+      <div class="about">
+        <div class="about-img">
+          <img src="img/photo background 3.png" alt="" />
+        </div>
+        <div class="about-content">
+          <h1>When did it began?</h1>
+          <p>
+            Shivanjali Society is the group of the youth of India which
+            influences the betterment of children who are not able to reach the
+            essentialism of Education. To serve such aims for the children, the
+            Shivanjali Society has established Shivanjali Shiksha Center. We
+            also run hunger eradication drives every second Sunday of each
+            month. This drive provides a nutritious meal to needy people that
+            can help to feel their empty belly. Shivanjali focuses on the
+            creation of a healthy mind and a perfect body that will help to
+            decide the future of the country. In addition, during Winter we
+            organize a winter kit donation campaign to donate a kit consisting
+            of essential warm clothes such as a pair of socks, gloves, and one
+            blanket.
+          </p>
+          <hr />
+        </div>
+        <!-- <img id="ai03" src="img/wave img.png" alt="image" /> -->
+      </div>
+    </section>
+
+    <!-- ==========CODE BY GAURAV ========= -->
+    <!-- -------------- JAVASCRIPT--------------  -->
+    <script>
+      const toggle = document.getElementById("toggle");
+      const navbar = document.getElementById("navbar");
+      const header = document.getElementById("header");
+      document.onclick = function (e) {
+        if (
+          e.target.id !== "header" &&
+          e.target.id !== "toggle" &&
+          e.target.id !== "navbar"
+        ) {
+          toggle.classList.remove("active");
+          navbar.classList.remove("active");
+        }
+      };
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        navbar.classList.toggle("active");
+      };
+
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 3) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+  </body>
+</html>
