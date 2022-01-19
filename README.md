@@ -16,7 +16,7 @@ A NGO working in the field of poverty alleviation, education, and many other iss
 > <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="" />
 
 # ✨ Contributors ✨
-  > <a href="https://github.com/BHAVJOT14">
+  <a href="https://github.com/BHAVJOT14">
     <img src="https://github.com/BHAVJOT14.png?size=50" />
   </a>
   <a href="https://github.com/techrider27">
