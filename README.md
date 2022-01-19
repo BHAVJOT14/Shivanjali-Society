@@ -15,15 +15,15 @@ A NGO working in the field of poverty alleviation, education, and many other iss
 # ✨ Tech Stack ✨
 > <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="" />
 
-# ✨ Contributors ✨
+# ✨ Team ✨
   <a href="https://github.com/BHAVJOT14">
-    <img src="https://github.com/BHAVJOT14.png?size=80" />
+    Bhavjot Singh
   </a>
   <a href="https://github.com/techrider27">
-    <img src="https://github.com/techrider27.png?size=80" />
+    Gaurav Sangewar
   </a>
   <a href="https://github.com/dheerajrao20">
-    <img src="https://github.com/dheerajrao20.png?size=80" />
+    Dheeraj Rao
   </a>
 
 
