@@ -13,7 +13,7 @@ git clone https://github.com/your_username/Shivanjali-Society
 
 **3.** **Navigate** to the project directory :
 
-```
+``
 cd Shivanjali-Society
 ```
 
