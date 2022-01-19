@@ -15,11 +15,6 @@ A NGO working in the field of poverty alleviation, education, and many other iss
 # ✨ Tech Stack ✨
 > <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="" />
 
-# ✨ Contributors ✨
-  <a href="https://github.com/BHAVJOT14/Shivanjali-Society/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=BHAVJOT14/Shivanjali-Society" />
-  </a>
-
 # 🎇How To Contribute 🎇
 
 ***Read [contribution guidelines](./Contribute.md)***
