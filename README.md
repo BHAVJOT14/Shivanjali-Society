@@ -17,13 +17,13 @@ A NGO working in the field of poverty alleviation, education, and many other iss
 
 # ✨ Contributors ✨
   <a href="https://github.com/BHAVJOT14">
-    <img src="https://github.com/BHAVJOT14.png?size=50" />
+    <img src="https://github.com/BHAVJOT14.png?size=80" />
   </a>
   <a href="https://github.com/techrider27">
-    <img src="https://github.com/techrider27.png?size=50" />
+    <img src="https://github.com/techrider27.png?size=80" />
   </a>
   <a href="https://github.com/dheerajrao20">
-    <img src="https://github.com/dheerajrao20.png?size=50" />
+    <img src="https://github.com/dheerajrao20.png?size=80" />
   </a>
 
 
