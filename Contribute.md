@@ -17,20 +17,7 @@ git clone https://github.com/your_username/Shivanjali-Society
 cd Shivanjali-Society
 ```
 
-**4.** **Run the following commands**
-
-- To install the dependencies
-```
-npm install
-```
-
-- To run the project
-
-```
-npm run
-```
-
-**5.** **Add a reference(remote)** to the original repository to get all the changes from the remote.
+**4.** **Add a reference(remote)** to the original repository to get all the changes from the remote.
 
 ```
 git remote add upstream https://github.com/BHAVJOT14/Shivanjali-Society
