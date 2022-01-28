@@ -332,20 +332,21 @@ header {
 
 /* testimonial-section */
 .testimonial {
+  margin:10px 0 0 0;
   height:auto;
 }
 .container{
-  background:#ebfaf1;
+  background:#e9fdfd;
   width:100%;
 }
 .shadow-effect {
-  /* background: #fff; */
   background:#e3fcf1;
   padding: 20px;
   border-radius: 4px;
   text-align: center;
-  border: 1px solid #ECECEC;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
+  border: 1px solid #c9c7c7;
+  border-radius:20px;
+  box-shadow: 0 19px 38px #0000001a, 0 15px 12px #00000005;
 }
 
 #customers-testimonials .shadow-effect p {
@@ -424,7 +425,7 @@ header {
 /* our impact section */
 .our-impact-section{
   height:auto;
-  background:rgb(205, 234, 243);
+  background:#e6fdef;
   padding:30px 20px 30px 20px;
 }
 .ourimpact-heading-container{
@@ -437,7 +438,7 @@ header {
   margin:0 0 0 50px;
 }
 .ourimpact-heading-child h1{
-  font-family:'Courier New', Courier, monospace;
+  font-family:monospace;
   font-size:3rem;
 }
 .ourimpact-boxes-container{
@@ -491,13 +492,12 @@ header {
   font-weight: 400;
   padding:5px 0 0 0;
 }
-/* section events-gallery-blog */
+
+/* events-gallery-blog section */
 .events-gallery-blog {
   height: auto;
   padding: 70px 20px 70px 20px;
   margin: 0 0 10px 0;
-  background: url("../images/page8Background.png");
-  background-repeat: round;
 }
 
 .container-egb {
@@ -537,17 +537,10 @@ header {
   box-shadow: 2px 2px 5px 0px #000000;
 }
 
-
 /* ----------footer-------- */
 .footer {
   height: auto;
-  /* padding: 0 20px 20px 20px; */
   padding:20px;
-  /* padding:20px; */
-  /* background: url("../images/footerBackground.png");
-  background-position: top;
-  background-repeat: round;
-  background-size: cover; */
   background-color: #e4f0e7;
 }
 
