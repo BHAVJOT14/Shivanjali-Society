@@ -332,20 +332,30 @@ header {
 
 /* testimonial-section */
 .testimonial {
-  margin:10px 0 0 0;
-  height:auto;
+  height: auto;
 }
-.container{
-  background:#e9fdfd;
-  width:100%;
+
+.container {
+  width: 100%;
+  background: #f0fff3;
+  padding: 20px;
 }
+
+.container h1 {
+  font-family: monospace;
+  font-size: 2.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
 .shadow-effect {
-  background:#e3fcf1;
+  width: 100%;
+  background: #e7fcf3;
   padding: 20px;
   border-radius: 4px;
   text-align: center;
   border: 1px solid #c9c7c7;
-  border-radius:20px;
+  border-radius: 20px;
   box-shadow: 0 19px 38px #0000001a, 0 15px 12px #00000005;
 }
 
@@ -355,18 +365,25 @@ header {
   line-height: 1.5;
   margin: 0 0 17px 0;
   font-weight: 300;
+  font-style: italic;
 }
 
 .testimonial-name {
   margin: -17px auto 0;
   display: table;
   width: auto;
-  background:#ffa500;
+  background: #6AF1B1;
   padding: 9px 35px;
   border-radius: 12px;
   text-align: center;
-  color:black;
+  color: #000000;
   box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+  border: 0.5px solid #000000;
+}
+
+.testimonial-name:hover {
+  background: #3FCB9C;
+  cursor: pointer;
 }
 
 #customers-testimonials .item {
@@ -416,88 +433,93 @@ header {
   transition: all 250ms ease-out 0s;
   width: 20px;
 }
-.testimonial-name:hover{
-  background-color:blue;
-  color:white;
-  cursor: pointer;
-}
 
 /* our impact section */
-.our-impact-section{
-  height:auto;
-  background:#e6fdef;
-  padding:30px 20px 30px 20px;
+.our-impact-section {
+  height: auto;
+  background: #fff;
+  padding: 35px 20px 35px 20px;
 }
-.ourimpact-heading-container{
-  display:flex;
-  justify-content:left;
+
+.ourimpact-heading-container {
+  display: flex;
+  justify-content: left;
   align-items: center;
 }
-.ourimpact-heading-child{
-  width:300px;
-  margin:0 0 0 50px;
+
+.ourimpact-heading-child {
+  width: 300px;
+  margin: 0 0 0 50px;
 }
-.ourimpact-heading-child h1{
-  font-family:monospace;
-  font-size:3rem;
+
+.ourimpact-heading-child h1 {
+  font-family: monospace;
+  font-size: 3rem;
+  font-style: italic;
 }
-.ourimpact-boxes-container{
+
+.ourimpact-boxes-container {
   display: flex;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
   flex-wrap: wrap;
 }
-.ourimpact-boxes-child{
-  width:450px;
+
+.ourimpact-boxes-child {
+  width: 450px;
 }
-.ourimpact-boxes-child iframe{
-  width:100%;
+
+.ourimpact-boxes-child iframe {
+  width: 100%;
   height: 240px;
 }
 
-.ourimpact-boxes-child-container{
+.ourimpact-boxes-child-container {
   display: flex;
-  justify-content:space-evenly;
-  align-items:center;
+  justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-.ourimpact-boxes-child-container-1{
+.ourimpact-boxes-child-container-1 {
   display: flex;
-  margin:15px 0 0 0;
+  margin: 15px 0 0 0;
   justify-content: space-evenly;
-  align-items:center;
+  align-items: center;
   flex-wrap: wrap;
 }
+
 .ourimpact-boxes-child-container-green,
-.ourimpact-boxes-child-container-1-green{
-  width:200px;
-  padding:25px 20px 25px 20px;
-  border-radius:18px;
-  border:1px solid #000000;
-  background:#a1e6c8;
+.ourimpact-boxes-child-container-1-green {
+  width: 200px;
+  padding: 25px 20px 25px 20px;
+  border-radius: 18px;
+  border: 1px solid #000000;
+  background: #a1e6c8;
   box-shadow: 3px 3px 0px 1px #363434;
 }
+
 .ourimpact-boxes-child-container-green p,
-.ourimpact-boxes-child-container-1-green p{
-  text-transform:uppercase;
-  color:darkgreen;
+.ourimpact-boxes-child-container-1-green p {
+  text-transform: uppercase;
+  color: darkgreen;
   font-weight: bold;
-  font-size:18px;
+  font-size: 18px;
 }
+
 #volunteers,
 #distributed,
 #winter-kits,
-#donors{
+#donors {
   font-weight: 400;
-  padding:5px 0 0 0;
+  padding: 5px 0 0 0;
 }
 
 /* events-gallery-blog section */
 .events-gallery-blog {
   height: auto;
-  padding: 70px 20px 70px 20px;
-  margin: 0 0 10px 0;
+  padding: 40px 10px 40px 10px;
+  background: #F0FFF3;
 }
 
 .container-egb {
@@ -530,17 +552,18 @@ header {
   font-weight: 700;
 }
 
-.child-egb:hover {
+.child-egb:hover{
   cursor: pointer;
   transform: translateY(-5%);
   transition: 0.2s ease-in;
   box-shadow: 2px 2px 5px 0px #000000;
+  border: 1px solid #000000;
 }
 
 /* ----------footer-------- */
 .footer {
   height: auto;
-  padding:20px;
+  padding: 20px;
   background-color: #e4f0e7;
 }
 
@@ -579,7 +602,7 @@ header {
 
 .fchild-2 ul li a {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 .fchild-2 ul li a:hover {
@@ -601,7 +624,7 @@ header {
 }
 
 #social-media ul li a {
-  background-color: black;
+  background-color: #000000;
   color: white;
   padding: 5px;
   border-radius: 50%;
