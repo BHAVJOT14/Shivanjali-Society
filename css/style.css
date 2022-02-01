@@ -7,14 +7,13 @@
 }
 
 body {
-  background: #fff;
+  background: #dbdbdbe5;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  box-shadow: 0px 9px 20px -2px rgba(0, 0, 0, 0.8);
 }
 
 .logo {
@@ -92,7 +91,7 @@ header {
   line-height: 60px;
   display: inline-block;
   text-decoration: none;
-  font-size: 1.4em;
+  font-size: 1em;
   padding: 0 15px;
   position: relative;
   transition: ease-in-out;
@@ -105,7 +104,7 @@ header {
   margin: 0 0 0 20%;
   transform: scaleX(0);
   border-radius: 50px;
-  height: 5px;
+  height: 2px;
   bottom: 0;
   left: 0;
   background-color: #6af1b1;
@@ -125,16 +124,12 @@ header {
 
 /*-- Slider Start --*/
 
-.slider-section {
-  padding: 2.5% 0 0 0;
-}
-
 #slider {
-  width: 95%;
-  border-radius: 12px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  height: 32rem;
 }
 
 .slide {
@@ -146,6 +141,7 @@ header {
 
 .slide img {
   width: 100%;
+  height: 32rem;
 }
 
 @keyframes fade {
@@ -156,32 +152,6 @@ header {
   to {
     opacity: 1;
   }
-}
-
-.controls {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5em;
-  padding: 0.05em;
-  border-radius: 5px;
-}
-
-.controls:hover {
-  background: #6af1b1;
-  transition: 0.3s;
-}
-
-.controls:active {
-  color: grey;
-}
-
-#left-arrow {
-  left: 10px;
-}
-
-#right-arrow {
-  right: 10px;
 }
 
 #dots-con {
@@ -220,28 +190,30 @@ header {
 /*-- 4 Cards Starts --*/
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  background-image: url(img/background\ wave.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80vh;
-  margin: 0 5vw;
+  height: auto;
+  padding: 1.8rem 0 4rem 0;
+  background: rgb(209, 209, 209);
+  background: radial-gradient(
+    circle,
+    rgba(209, 209, 209, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #40d3dc;
   height: 55vh;
-  width: 20vw;
+  width: 22vw;
   padding: 16px;
   color: #fff;
   text-align: center;
   border-radius: 12px;
-  cursor: pointer;
 }
 
 .card:hover {
@@ -269,17 +241,22 @@ header {
   justify-content: space-between;
 }
 
-.card-content h2 {
+.card-content h4 {
   font-weight: 400;
 }
 
 .card-content a {
   color: #fff;
   font-size: 1.2em;
+  text-decoration: none;
+  transition: 0.5s all ease-in-out;
 }
 
 .card-content a:hover {
-  color: #000;
+  letter-spacing: 0.7px;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .card:nth-child(1) {
@@ -295,7 +272,7 @@ header {
 }
 
 .card:nth-child(4) {
-  background-color: #80ed99;
+  background-color: #61c277;
 }
 /*-- 4 Cards Ends --*/
 
@@ -315,7 +292,7 @@ header {
 }
 
 .about:nth-child(2) {
-  background-color: #fff;
+  background-color: #dbdbdbe5;
 }
 
 .about-img {
@@ -334,7 +311,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 .about-content h1 {
@@ -345,7 +321,7 @@ header {
 .about-content p {
   font-size: 1.2em;
   letter-spacing: 2px;
-  text-align: justify;
+  text-align: left;
 }
 
 .about-content hr {
@@ -370,22 +346,21 @@ header {
 }
 
 .container h1 {
-  font-family: monospace;
   font-size: 2.5rem;
   text-align: center;
-  font-style: italic;
+  padding: 2rem;
 }
 
 .shadow-effect {
   width: 100%;
   background: #e7fcf3;
-  padding: 20px;
+  padding: 1.5rem;
   border-radius: 4px;
   text-align: center;
   border: 1px solid #000000d8;
   border-radius: 20px;
   /* box-shadow: 0 19px 38px #0000001a, 0 15px 12px #00000005; */
-  box-shadow: 0px 0px 47px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.8);
 }
 
 #customers-testimonials .shadow-effect p {
@@ -395,6 +370,7 @@ header {
   margin: 0 0 17px 0;
   font-weight: 300;
   font-style: italic;
+  padding: 2rem 0 1rem 0;
 }
 
 .testimonial-name {
@@ -418,7 +394,6 @@ header {
 #customers-testimonials .item {
   text-align: center;
   padding: 50px;
-  margin-bottom: 60px;
   opacity: 0.2;
   transform: scale3d(0.8, 0.8, 1);
   transition: all 0.3s ease-in-out;
@@ -436,7 +411,7 @@ header {
 
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
-  max-width: 90px;
+  max-width: 170px;
   margin: 0 auto 17px;
   border-radius: 50%;
 }
@@ -473,7 +448,8 @@ header {
 .our-impact-section {
   height: auto;
   background: #e6fdef;
-  padding: 35px 20px 35px 20px;
+  /* padding: 35px 20px 35px 20px; */
+  padding: 5rem;
 }
 
 .ourimpact-heading-container {
@@ -482,15 +458,9 @@ header {
   align-items: center;
 }
 
-.ourimpact-heading-child {
-  width: 300px;
-  margin: 0 0 0 50px;
-}
-
 .ourimpact-heading-child h1 {
-  font-family: monospace;
   font-size: 3rem;
-  font-style: italic;
+  padding: 0 0 3rem 0;
 }
 
 .ourimpact-boxes-container {
