@@ -1,0 +1,476 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.section-leading-not-for-profit {
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+
+.not-for-profit-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.not-for-profit-child {
+    width: 400px;
+    margin: 20px 0 0 0;
+    padding: 10px;
+}
+
+.not-for-profit-child img {
+    width: 100%;
+    height: auto;
+}
+
+.not-for-profit-child h1 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+}
+
+.not-for-profit-child p {
+    margin: 0 0 30px 0;
+}
+
+.pressed-btn {
+    background: #6AF1B1;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.pressed-btn:hover {
+    background: #a2f3cd;
+    cursor: pointer;
+}
+
+.pressed-btn:active {
+    box-shadow: 0 5px #3FCB9c;
+    transform: translateY(4px);
+}
+
+/* section how shivanjali works */
+.section-shivanjali-works {
+    height: auto;
+    background: url("../images/Section-2_Non-transparent.png");
+    background-size: cover;
+    background-repeat: round;
+    padding: 30px 0 30px 0;
+}
+
+.section-shivanjali-works h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.shivanjali-works-container {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.shivanjali-works-child {
+    width: 300px;
+    text-align: center;
+}
+
+.shivanjali-works-child img {
+    width: 100%;
+    height: auto;
+}
+
+.shivanjali-works-child h2 {
+    margin: 0 0 20px 0;
+    font-family: 'Noto Serif', serif;
+}
+
+.shivanjali-works-child p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* section after shivanjali works */
+.section-after-shivanjali-works {
+    height: auto;
+    padding: 40px 0 40px 0;
+}
+
+.after-shivanjali-works-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.after-shivanjali-works-child {
+    width: 400px;
+}
+
+.after-shivanjali-works-child img {
+    width: 100%;
+    height: auto;
+}
+
+.after-shivanjali-works-child h4 {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.after-shivanjali-works-child p {
+    color: #77838D;
+}
+
+#almost-para {
+    color: #000000;
+    font-size: 1.2rem;
+    margin: 0 0 20px 0;
+}
+
+#bulb-img {
+    display: none;
+    width: 12%;
+    height: auto;
+    position: relative;
+    top: -20px;
+}
+
+/* section teachers apply here */
+.section-teachers-apply-here {
+    height: auto;
+    background: #F0FFF3;
+    padding: 40px 0 40px 0;
+}
+
+.teachers-apply-here-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.teachers-apply-here-child {
+    width: 400px;
+}
+
+.teachers-apply-here-child img {
+    width: 100%;
+    height: auto;
+}
+
+.teachers-apply-here-child h4 {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.teachers-apply-here-child p {
+    color: #77838D;
+}
+
+#exclamatory-teachers {
+    display: none;
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -20px;
+    right: 5%;
+}
+
+/* section be a part of change */
+.section-be-part-of-change {
+    height: auto;
+    padding: 40px 0 40px 0;
+}
+
+.be-part-of-change-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.be-part-of-change-child {
+    width: 400px;
+}
+
+.be-part-of-change-child img {
+    width: 100%;
+    height: auto;
+}
+
+.be-part-of-change-child figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.be-part-of-change-child h2 {
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 10px 0;
+}
+
+.be-part-of-change-child h4 {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    margin: 0 0 40px 0;
+}
+
+#exclamatory-partOfChange {
+    display: none;
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -20px;
+    right: 80%;
+    transform: rotate(270deg);
+}
+
+/* section join shivanjali */
+.section-join-shivanjali {
+    background: #F0FFF3;
+    height: auto;
+}
+
+.join-shivanjali-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.join-shivanjali-child {
+    width: 300px;
+    text-align: center;
+}
+
+.join-shivanjali-child h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.join-shivanjali-child p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 30px 0;
+}
+
+.online,
+.offline {
+    margin: 0 20px 0 20px;
+    background: #6AF1B1;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.online:hover,
+.offline:hover {
+    background: #a2f3cd;
+    cursor: pointer;
+}
+
+.online:active,
+.offline:active {
+    box-shadow: 0 5px #3fcb9c;
+    transform: translateY(4px);
+}
+
+/* mobile view */
+@media screen and (max-width:500px) {
+    .not-for-profit-child {
+        width: 300px;
+        flex-direction: column;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .not-for-profit-child img {
+        width: 80%;
+        height: auto;
+    }
+
+    .not-for-profit-child h1 {
+        font-size: 1.5rem;
+    }
+
+    .not-for-profit-child p {
+        font-size: 0.9rem;
+    }
+
+    .section-shivanjali-works {
+        background: #F0FFF3;
+    }
+
+    .section-shivanjali-works h1 {
+        font-size: 1.5rem;
+    }
+.shivanjali-works-child{
+padding:0 10px 0 10px;
+}
+    .shivanjali-works-child h2 {
+        font-size: 16px;
+        margin:0 0 10px 0;
+    }
+    .shivanjali-works-child p{
+        font-size:13px;
+    }
+
+    .after-shivanjali-works-child {
+        width: 300px;
+        padding: 0 10px 0 10px;
+    }
+
+    .after-shivanjali-works-child h4 {
+        font-size: 16px;
+    }
+
+    #almost-para {
+        font-size: 14px;
+    }
+
+    .pressed-btn {
+        padding: 4px 10px 4px 10px;
+        font-size: 14px;
+    }
+
+    #bulb-img {
+        width: 10%;
+        top: -10px;
+    }
+
+    .teachers-apply-here-child {
+        width: 300px;
+        margin: 10px 0 0 0;
+        padding: 0 10px 0 10px;
+    }
+
+    .teachers-apply-here-child h4 {
+        font-size: 16px;
+    }
+
+    #exclamatory-teachers {
+        width: 10%;
+        top: -10px;
+        right: 2%;
+    }
+
+    .be-part-of-change-child {
+        width: 300px;
+        padding:0 10px 0 10px;
+    }
+
+    .be-part-of-change-child h2 {
+        font-size: 16px;
+    }
+
+    .be-part-of-change-child h4 {
+        font-size: 13px;
+    }
+
+    #exclamatory-partOfChange {
+        width: 10%;
+        right: 70%;
+        top: -20px;
+    }
+
+    .section-join-shivanjali {
+        padding: 20px 0 20px 0;
+    }
+
+    .join-shivanjali-child h1 {
+        font-size: 16px;
+    }
+
+    .join-shivanjali-child p {
+        font-size: 13px;
+    }
+
+    .online,
+    .offline {
+        font-size: 14px;
+        padding: 3px 15px 3px 15px;
+    }
+
+    .join-shivanjali-child img {
+        display: none;
+    }
+}
+
+/* tablets */
+@media screen and (min-width:501px) and (max-width:768px) {
+    .not-for-profit-child {
+        width: 380px;
+    }
+
+    .section-shivanjali-works {
+        background: #F0FFF3;
+    }
+
+    .after-shivanjali-works-child {
+        width: 300px;
+    }
+
+    .teachers-apply-here-child {
+        width: 300px;
+    }
+
+    #exclamatory-teachers {
+        width: 20%;
+        height: auto;
+        position: relative;
+        top: -80px;
+        left: 80%;
+    }
+
+    .be-part-of-change-child {
+        width: 300px;
+    }
+
+    #exclamatory-partOfChange {
+        width: 20%;
+        height: auto;
+        position: relative;
+        top: -70px;
+        right: 18%;
+        transform: rotate(250deg);
+    }
+
+    .section-join-shivanjali {
+        padding: 40px 0 40px 0;
+    }
+
+    .join-shivanjali-container {
+        flex-direction: column-reverse;
+    }
+
+    .join-shivanjali-child {
+        width: 400px;
+    }
+
+    .join-shivanjali-child img {
+        display: none;
+    }
+
+    .online,
+    .offline {
+        font-size: 1rem;
+        padding: 4px 10px 4px 10px;
+    }
+}
