@@ -1,39 +1,56 @@
-/* -------- contact us form -----  */
-.form-page {
-  display: flex;
-  height: auto;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+/* ----- map -------  */
+.map {
+  position: relative;
+  margin: 2rem 0;
 }
+
+.map iframe {
+  filter: brightness(50%) blur(1.5px);
+  transition: all 0.5s ease-in-out;
+}
+
+.map iframe:hover {
+  filter: brightness(100%) blur(0);
+}
+
+/* -------- contact us form -----  */
 .form-main {
   display: flex;
   justify-content: space-around;
   margin: 10vh 0;
-  width: 85vw;
+  width: 70%;
+  height: auto;
   align-items: center;
-  background-color: #f3fff6;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e6fdef;
+  padding: 2rem;
 }
+
 .form {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* background-color: blue; */
   height: 70vh;
 }
+
 .form-txt h1 {
-  font-size: 3.3em;
+  font-size: 3em;
 }
+
 .form-txt h2 {
   font-size: 1.8em;
   color: #77838d;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
 }
+
 .form-inp {
   display: flex;
   flex-direction: column;
 }
+
 .form-inp input {
   margin: 20px 0;
   border: none;
@@ -43,122 +60,59 @@
   color: #77838d;
   background-color: transparent;
 }
+
 .form-btn button {
   font-size: 1.7em;
   padding: 10px 20px;
   border-radius: 10px;
   border: 1px solid #000;
   cursor: pointer;
-  box-shadow: 4px 4px #999;
+  box-shadow: 4px 4px 2px #999;
+  background-color: #6af1b1;
 }
+
 .form-btn button:active {
   box-shadow: none;
   transform: translate(4px, 4px);
 }
+
 .form-address {
   height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+
 .form-address h1 {
   font-size: 2em;
 }
+
 .inner-address {
   display: flex;
 }
+
 .inner-address i {
   font-size: 36px;
   margin-right: 10px;
   color: black;
 }
-.inner-address i:hover {
-  color: green;
-}
+
 .inner-address p {
   font-size: 1em;
   letter-spacing: 2px;
   color: #545454;
 }
-.inner-address p a{
+
+.inner-address p a {
   text-decoration: none;
   color: #000;
   opacity: 0.7;
 }
-.inner-address p a:hover{
+
+.inner-address p a:hover {
   text-decoration: underline;
 }
-/* ----- map -------  */
-.map {
-  position: relative;
-  margin-bottom: 2vh ;
-}
-#overmap {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f3fff6;
-}
-.map .form-main {
-  width: 70%;
-  height: 600px;
-}
-.map .form-txt {
-  margin-top: 20px;
-}
-.map .form-txt h1 {
-  font-size: 2.4em;
-}
-.map .form-txt h2 {
-  font-size: 1.6em;
-}
-.map .form-btn button {
-  font-size: 1.4em;
-  margin-bottom: 20px;
-  background-color: #6AF1B1;
-}
-/* responsive  */
-@media (max-width: 1000px) {
-  #toggle {
-    display: flex;
-  }
 
-  .logo img {
-    width: 80px;
-  }
-
-  .logo h1 {
-    font-size: 10px;
-  }
-
-  #navbar {
-    position: fixed;
-    bottom: -100%;
-    right: 0;
-    width: 100%;
-    transition: 0.5s;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-
-  #navbar.active {
-    height: calc(100vh - 60px);
-    bottom: 0;
-    width: 100%;
-  }
-
-  #navbar ul {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    height: 100vh;
-    margin: 18% 0 0 0;
-  }
-}
 /* -------------------------
 -------MEDIA QUERIES------ */
 @media (max-width: 600px) {
@@ -167,50 +121,64 @@
     height: auto;
     padding-bottom: 16px;
   }
+
   .form-txt h1 {
     font-size: 2em;
   }
+
   .form-txt h2 {
     font-size: 1.4em;
   }
+
   .form-inp input {
     margin: 16px 0;
   }
+
   .form-btn button {
     font-size: 1.2em;
     padding: 10px 12px;
   }
+
   .form-address h1 {
     font-size: 1.8em;
   }
+
   .form-address i {
     font-size: 24px;
   }
+
   .form-address p {
     font-size: 1.1em;
     letter-spacing: 1px;
   }
+
   .map .form-main {
     width: 90vw;
   }
+
   .map .form-txt h1 {
     font-size: 2em;
   }
+
   .map .form-txt h2 {
     font-size: 1.2em;
   }
+
   .map .form-inp input {
     margin: 10px 0;
     font-size: 1.2em;
   }
+
   .map .form-btn button {
     font-size: 1.2em;
     padding: 3px 12px;
   }
+
   .map .form-address h1 {
     font-size: 1.4em;
     margin-bottom: 10px;
   }
+
   .map .form-address p {
     font-size: 0.9em;
     margin-bottom: 10px;
