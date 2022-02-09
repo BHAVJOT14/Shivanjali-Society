@@ -9,23 +9,20 @@
 //---------------------------------
 
 //------- navbar starts -------
-const toggle = document.getElementById("toggle");
-const navbar = document.getElementById("navbar");
-const header = document.getElementById("header");
-document.onclick = function (e) {
-  if (
-    e.target.id !== "header" &&
-    e.target.id !== "toggle" &&
-    e.target.id !== "navbar"
-  ) {
-    toggle.classList.remove("active");
-    navbar.classList.remove("active");
-  }
-};
-toggle.onclick = function () {
-  toggle.classList.toggle("active");
-  navbar.classList.toggle("active");
-};
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
+
+hamburger.addEventListener("click", () => {
+  //Animate Links
+  navLinks.classList.toggle("open");
+  links.forEach((link) => {
+    link.classList.toggle("fade");
+  });
+
+  //Hamburger Animation
+  hamburger.classList.toggle("toggle");
+});
 
 $(function () {
   $(window).on("scroll", function () {
