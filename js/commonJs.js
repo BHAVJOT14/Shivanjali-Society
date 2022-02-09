@@ -26,4 +26,14 @@ toggle.onclick = function () {
   toggle.classList.toggle("active");
   navbar.classList.toggle("active");
 };
+
+$(function () {
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop() > 500) {
+      $(".main_header").addClass("activeHeader");
+    } else {
+      $(".main_header").removeClass("activeHeader");
+    }
+  });
+});
 //------- navbar ends -------

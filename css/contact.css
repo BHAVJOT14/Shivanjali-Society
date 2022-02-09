@@ -27,6 +27,13 @@
   transform: translate(-50%, -50%);
   background-color: #e6fdef;
   padding: 2rem;
+  opacity: 1;
+  border-radius: 12px;
+}
+
+.map iframe:hover + .form-main {
+  filter: brightness(100%) blur(0);
+  opacity: 0;
 }
 
 .form {
@@ -67,7 +74,7 @@
   border-radius: 10px;
   border: 1px solid #000;
   cursor: pointer;
-  box-shadow: 4px 4px 2px #999;
+  box-shadow: 4px 4px #999;
   background-color: #6af1b1;
 }
 

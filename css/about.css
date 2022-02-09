@@ -19,8 +19,6 @@ body {
 }
 
 .not-for-profit-child {
-  width: 400px;
-  margin: 20px 0 0 0;
   padding: 10px;
 }
 
@@ -39,14 +37,16 @@ body {
 }
 
 .pressed-btn {
-  background: #6AF1B1;
+  background: #6af1b1;
   font-size: 1.2rem;
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  padding: 8px 20px 8px 20px;
+  padding: 10px 25px;
   border-radius: 10px;
   border: 1px solid black;
+  box-shadow: 5px 5px #999;
+  transition: 0.2s ease-in-out;
 }
 
 .pressed-btn:hover {
@@ -55,8 +55,40 @@ body {
 }
 
 .pressed-btn:active {
-  box-shadow: 0 5px #3FCB9c;
+  box-shadow: none;
   transform: translateY(4px);
+}
+
+.hoverBtn {
+  text-align: center;
+  padding: 10px 25px;
+  width: 160px;
+  margin: 0 5px 0 0;
+}
+
+.hoverBtn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.hoverBtn span:after {
+  content: "\21A0";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.hoverBtn:hover span {
+  padding-right: 25px;
+}
+
+.hoverBtn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 /* section how shivanjali works */
@@ -93,11 +125,11 @@ body {
 
 .shivanjali-works-child h2 {
   margin: 0 0 20px 0;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 .shivanjali-works-child p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* section after shivanjali works */
@@ -124,12 +156,12 @@ body {
 
 .after-shivanjali-works-child h4 {
   font-size: 1.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 200;
 }
 
 .after-shivanjali-works-child p {
-  color: #77838D;
+  color: #77838d;
 }
 
 #almost-para {
@@ -143,12 +175,21 @@ body {
   height: auto;
   position: relative;
   top: -20px;
+  transition: all 0.5s ease-in-out;
 }
+
+.pressed-btn:hover + #bulb-img {
+  filter: invert(64%) sepia(51%) saturate(5336%) hue-rotate(349deg)
+    brightness(95%) contrast(87%);
+}
+
+/*  filter: invert(82%) sepia(100%) saturate(8000%) hue-rotate(356deg)
+    brightness(108%) contrast(108%); */
 
 /* section teachers apply here */
 .section-teachers-apply-here {
   height: auto;
-  background: #F0FFF3;
+  background: #f0fff3;
   padding: 40px 0 40px 0;
 }
 
@@ -170,12 +211,12 @@ body {
 
 .teachers-apply-here-child h4 {
   font-size: 1.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 200;
 }
 
 .teachers-apply-here-child p {
-  color: #77838D;
+  color: #77838d;
 }
 
 #exclamatory-teachers {
@@ -184,6 +225,12 @@ body {
   position: relative;
   top: -20px;
   right: 5%;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.pressed-btn:hover + #exclamatory-teachers {
+  opacity: 1;
 }
 
 /* section be a part of change */
@@ -209,20 +256,20 @@ body {
 }
 
 .be-part-of-change-child figcaption {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin: 0 0 10px 0;
 }
 
 .be-part-of-change-child h2 {
   font-size: 1.4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 0 10px 0;
 }
 
 .be-part-of-change-child h4 {
   font-size: 1.2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 200;
   margin: 0 0 40px 0;
 }
@@ -234,11 +281,17 @@ body {
   top: -20px;
   right: 80%;
   transform: rotate(270deg);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.pressed-btn:hover + #exclamatory-partOfChange {
+  opacity: 1;
 }
 
 /* section join shivanjali */
 .section-join-shivanjali {
-  background: #F0FFF3;
+  background: #f0fff3;
   height: auto;
 }
 
@@ -255,26 +308,28 @@ body {
 }
 
 .join-shivanjali-child h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2.5rem;
 }
 
 .join-shivanjali-child p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 0 30px 0;
 }
 
 .online,
 .offline {
   margin: 0 20px 0 20px;
-  background: #6AF1B1;
+  background: #6af1b1;
   font-size: 1.2rem;
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   padding: 5px 20px 5px 20px;
   border-radius: 10px;
   border: 1px solid black;
+  box-shadow: 5px 5px #999;
+  transition: 0.2s ease-in-out;
 }
 
 .online:hover,
@@ -285,189 +340,189 @@ body {
 
 .online:active,
 .offline:active {
-  box-shadow: 0 5px #3fcb9c;
+  box-shadow: none;
   transform: translateY(4px);
 }
 
 /* mobile view */
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .not-for-profit-child {
-      width: 300px;
-      flex-direction: column;
-      padding: 5px;
-      text-align: center;
+    width: 300px;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
   }
 
   .not-for-profit-child img {
-      width: 80%;
-      height: auto;
+    width: 80%;
+    height: auto;
   }
 
   .not-for-profit-child h1 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   .not-for-profit-child p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
   .section-shivanjali-works {
-      background: #F0FFF3;
+    background: #f0fff3;
   }
 
   .section-shivanjali-works h1 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
-.shivanjali-works-child{
-padding:0 10px 0 10px;
-}
+  .shivanjali-works-child {
+    padding: 0 10px 0 10px;
+  }
   .shivanjali-works-child h2 {
-      font-size: 16px;
-      margin:0 0 10px 0;
+    font-size: 16px;
+    margin: 0 0 10px 0;
   }
-  .shivanjali-works-child p{
-      font-size:13px;
+  .shivanjali-works-child p {
+    font-size: 13px;
   }
 
   .after-shivanjali-works-child {
-      width: 300px;
-      padding: 0 10px 0 10px;
+    width: 300px;
+    padding: 0 10px 0 10px;
   }
 
   .after-shivanjali-works-child h4 {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   #almost-para {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .pressed-btn {
-      padding: 4px 10px 4px 10px;
-      font-size: 14px;
+    padding: 4px 10px 4px 10px;
+    font-size: 14px;
   }
 
   #bulb-img {
-      width: 10%;
-      top: -10px;
+    width: 10%;
+    top: -10px;
   }
 
   .teachers-apply-here-child {
-      width: 300px;
-      margin: 10px 0 0 0;
-      padding: 0 10px 0 10px;
+    width: 300px;
+    margin: 10px 0 0 0;
+    padding: 0 10px 0 10px;
   }
 
   .teachers-apply-here-child h4 {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   #exclamatory-teachers {
-      width: 10%;
-      top: -10px;
-      right: 2%;
+    width: 10%;
+    top: -10px;
+    right: 2%;
   }
 
   .be-part-of-change-child {
-      width: 300px;
-      padding:0 10px 0 10px;
+    width: 300px;
+    padding: 0 10px 0 10px;
   }
 
   .be-part-of-change-child h2 {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .be-part-of-change-child h4 {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   #exclamatory-partOfChange {
-      width: 10%;
-      right: 70%;
-      top: -20px;
+    width: 10%;
+    right: 70%;
+    top: -20px;
   }
 
   .section-join-shivanjali {
-      padding: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
   }
 
   .join-shivanjali-child h1 {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .join-shivanjali-child p {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   .online,
   .offline {
-      font-size: 14px;
-      padding: 3px 15px 3px 15px;
+    font-size: 14px;
+    padding: 3px 15px 3px 15px;
   }
 
   .join-shivanjali-child img {
-      display: none;
+    display: none;
   }
 }
 
 /* tablets */
-@media screen and (min-width:501px) and (max-width:768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
   .not-for-profit-child {
-      width: 380px;
+    width: 380px;
   }
 
   .section-shivanjali-works {
-      background: #F0FFF3;
+    background: #f0fff3;
   }
 
   .after-shivanjali-works-child {
-      width: 300px;
+    width: 300px;
   }
 
   .teachers-apply-here-child {
-      width: 300px;
+    width: 300px;
   }
 
   #exclamatory-teachers {
-      width: 20%;
-      height: auto;
-      position: relative;
-      top: -80px;
-      left: 80%;
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -80px;
+    left: 80%;
   }
 
   .be-part-of-change-child {
-      width: 300px;
+    width: 300px;
   }
 
   #exclamatory-partOfChange {
-      width: 20%;
-      height: auto;
-      position: relative;
-      top: -70px;
-      right: 18%;
-      transform: rotate(250deg);
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: -70px;
+    right: 18%;
+    transform: rotate(250deg);
   }
 
   .section-join-shivanjali {
-      padding: 40px 0 40px 0;
+    padding: 40px 0 40px 0;
   }
 
   .join-shivanjali-container {
-      flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .join-shivanjali-child {
-      width: 400px;
+    width: 400px;
   }
 
   .join-shivanjali-child img {
-      display: none;
+    display: none;
   }
 
   .online,
   .offline {
-      font-size: 1rem;
-      padding: 4px 10px 4px 10px;
+    font-size: 1rem;
+    padding: 4px 10px 4px 10px;
   }
 }
