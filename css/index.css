@@ -208,25 +208,21 @@
 
 .container {
   width: 100%;
-  /* background: #f0fff3; */
-  padding: 20px;
 }
 
 .container h1 {
   font-size: 2.5rem;
   text-align: center;
-  padding: 2rem;
+  padding:20px 0 0 0;
 }
 
 .shadow-effect {
   width: 100%;
   background: #e7fcf3;
   padding: 1.5rem;
-  border-radius: 4px;
   text-align: center;
   border: 1px solid #000000d8;
   border-radius: 20px;
-  /* box-shadow: 0 19px 38px #0000001a, 0 15px 12px #00000005; */
   box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.8);
 }
 
@@ -260,15 +256,10 @@
 
 #customers-testimonials .item {
   text-align: center;
-  padding: 50px;
+  padding:50px;
   opacity: 0.2;
   transform: scale3d(0.8, 0.8, 1);
   transition: all 0.3s ease-in-out;
-}
-
-#customers-testimonials .owl-item.active.center .item {
-  opacity: 0.8;
-  transform: scale3d(1, 1, 1);
 }
 
 #customers-testimonials .owl-item.active.center .item {
@@ -315,8 +306,7 @@
 .our-impact-section {
   height: auto;
   background: #e6fdef;
-  /* padding: 35px 20px 35px 20px; */
-  padding: 5rem;
+  padding:3rem;
 }
 
 .ourimpact-heading-container {
@@ -327,7 +317,8 @@
 
 .ourimpact-heading-child h1 {
   font-size: 3rem;
-  padding: 0 0 3rem 0;
+  padding: 0 0 2rem 0;
+  font-family:sans-serif ;
 }
 
 .ourimpact-boxes-container {
@@ -341,9 +332,9 @@
   width: 450px;
 }
 
-.ourimpact-boxes-child iframe {
+.ourimpact-boxes-child iframe { 
   width: 100%;
-  height: 240px;
+  height:280px;
 }
 
 .ourimpact-boxes-child-container {
@@ -354,8 +345,8 @@
 }
 
 .ourimpact-boxes-child-container-1 {
-  display: flex;
   margin: 15px 0 0 0;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
@@ -376,7 +367,7 @@
   text-transform: uppercase;
   color: darkgreen;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #volunteers,
@@ -392,7 +383,6 @@
 .events-gallery-blog {
   height: auto;
   padding: 2rem 0 3rem 0;
-  /* background: #f0fff3; */
 }
 
 .container-egb {
@@ -476,7 +466,29 @@
   }
 }
 
+@media screen and (max-width:800px){
+  .slider-section{
+    padding: 50px 0 0 0;
+  }
+#slider{
+  margin:48px 0 0 0;
+}
+.ourimpact-boxes-child iframe{
+  margin:40px 0 0 0;
+}
+#customers-testimonials .item{
+  padding:20px 10px 20px 10px;
+}
+
+}
+
 @media (max-width: 500px) {
+  .slider-section{
+    padding: 50px 0 0 0;
+  }
+#slider{
+  margin:48px 0 0 0;
+}
   .card-image img {
     transform: scale(1.8);
   }
@@ -528,5 +540,44 @@
   .about-img {
     display: flex;
     justify-content: center;
+  }
+  .container h1{
+    font-size: 1.5rem;
+  }
+  #customers-testimonials .item{
+    padding:40px 10px 40px 10px;
+  }
+  .our-impact-section{
+    padding:40px 20px 40px 20px;
+  } 
+  .ourimpact-heading-container{
+    justify-content:center;
+  }
+  .ourimpact-heading-child h1{
+    font-size:1.7rem;
+  }
+  .ourimpact-boxes-child iframe{
+    margin:40px 0 0 0;
+  }
+  .ourimpact-boxes-child-container-1{
+    margin:0;
+  }
+  
+  .ourimpact-boxes-child-container-green,
+  .ourimpact-boxes-child-container-1-green{
+    margin:10px 0 10px 0;
+    width:250px;
+    text-align: center;
+    padding:40px 20px 40px 20px;
+    border-radius:10px;
+  }
+.ourimpact-boxes-child-container-green p,
+.ourimpact-boxes-child-container-1-green p{
+  font-size:16px;
+}
+
+.child-egb h2{
+  font-size:1rem;
+  border-radius:10px;
   }
 }
