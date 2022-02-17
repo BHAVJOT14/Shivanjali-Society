@@ -21,6 +21,7 @@
 body {
   background: #ededed;
   user-select: none;
+  overflow-x: hidden;
 }
 
 nav {
@@ -210,7 +211,7 @@ nav {
 
 .footer {
   height: auto;
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
   background-color: #e4f0e7;
 }
 
@@ -235,7 +236,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 .fchild-2 {
@@ -312,6 +313,23 @@ nav {
 #contacts ul li a {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+}
+
+@media screen and (min-width:858px){
+ .fcontainer-2{
+   flex-wrap: nowrap;
+   } 
+}
+@media screen and (max-width:500px){
+  .fchild-2 h2{
+    font-size:16px;
+  }
+  #social-media ul{
+    margin:10px 0 0 -6px;
+  }
+  #social-media ul li a{
+    font-size:16px;
+  }
 }
 
 /*-------------------------------*/
