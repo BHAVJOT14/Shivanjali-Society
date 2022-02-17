@@ -172,7 +172,7 @@ body {
 }
 
 #bulb-img {
-  width: 12%;
+  width: 15%;
   height: auto;
   position: relative;
   top: -20px;
@@ -184,9 +184,6 @@ body {
     brightness(95%) contrast(87%);
   transform: scale(1.2);
 }
-
-/*  filter: invert(82%) sepia(100%) saturate(8000%) hue-rotate(356deg)
-    brightness(108%) contrast(108%); */
 
 /* section teachers apply here */
 .section-teachers-apply-here {
