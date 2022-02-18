@@ -19,7 +19,7 @@
 }
 
 body {
-  background: #ededed;
+  background: #ffffff;
   user-select: none;
   overflow-x: hidden;
 }
@@ -41,7 +41,7 @@ nav {
 
 /*Styling logo*/
 .logo {
-  padding: 0vh 1vw;
+  padding: 0.5rem 1rem;
   text-align: center;
 }
 
@@ -71,7 +71,7 @@ nav {
 }
 
 .nav-links li a:hover {
-  color: #61dafb;
+  color: #43a1bb;
 }
 
 .nav-links li a::after {
@@ -81,7 +81,7 @@ nav {
   margin: 0 0 0 20%;
   transform: scaleX(0);
   border-radius: 50px;
-  background-color: #61dafb;
+  background-color: #43a1bb;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -236,7 +236,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .fchild-2 {
@@ -315,20 +315,20 @@ nav {
   font-weight: 400;
 }
 
-@media screen and (min-width:858px){
- .fcontainer-2{
-   flex-wrap: nowrap;
-   } 
+@media screen and (min-width: 858px) {
+  .fcontainer-2 {
+    flex-wrap: nowrap;
+  }
 }
-@media screen and (max-width:500px){
-  .fchild-2 h2{
-    font-size:16px;
+@media screen and (max-width: 500px) {
+  .fchild-2 h2 {
+    font-size: 16px;
   }
-  #social-media ul{
-    margin:10px 0 0 -6px;
+  #social-media ul {
+    margin: 10px 0 0 -6px;
   }
-  #social-media ul li a{
-    font-size:16px;
+  #social-media ul li a {
+    font-size: 16px;
   }
 }
 
