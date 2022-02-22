@@ -19,7 +19,7 @@ body {
 }
 
 .not-for-profit-child {
-  width: 400px;
+  width: 400px; 
   padding: 10px;
 }
 
@@ -40,12 +40,12 @@ body {
 .pressed-btn {
   background: #6af1b1;
   font-size: 1.2rem;
-  color: black;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   padding: 10px 25px 10px 25px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   box-shadow: 5px 5px #999;
   transition: 0.2s ease-in-out;
 }
@@ -220,7 +220,7 @@ body {
 
 #exclamatory-teachers {
   width: 20%;
-  height: auto;
+  height: auto; 
   position: relative;
   top: -20px;
   right: 5%;
@@ -258,7 +258,7 @@ body {
 .be-part-of-change-child figcaption {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  margin: 0 0 10px 0;
+  margin: 5px 0 10px 40px;
 }
 
 .be-part-of-change-child h2 {
@@ -304,10 +304,8 @@ body {
 }
 
 .join-shivanjali-child {
-  width: 300px;
   text-align: center;
 }
-
 .join-shivanjali-child h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 2.5rem;
@@ -323,12 +321,12 @@ body {
   margin: 0 20px;
   background: #6af1b1;
   font-size: 1.2rem;
-  color: black;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   padding: 10px 20px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   box-shadow: 5px 5px #999;
   transition: 0.2s ease-in-out;
 }
@@ -337,6 +335,7 @@ body {
 .offline:hover {
   background: #a2f3cd;
   cursor: pointer;
+  border-radius:16px;
 }
 
 .online:active,
@@ -436,6 +435,10 @@ body {
     width: 300px;
     padding: 0 10px 0 10px;
   }
+  .be-part-of-change-child figcaption{
+    font-size:12px;
+    margin:0 0 10px 20px;
+  }
 
   .be-part-of-change-child h2 {
     font-size: 16px;
@@ -443,6 +446,7 @@ body {
 
   .be-part-of-change-child h4 {
     font-size: 13px;
+    margin:0 0 25px 0;
   }
 
   #exclamatory-partOfChange {
@@ -485,6 +489,13 @@ body {
   .not-for-profit-child-1 {
     text-align: center;
   }
+  .hoverBtn{
+    margin:0 10px 0 0;
+  }
+  #bulb-img{
+    width: 13%;
+    top: -10px;
+  }
   .section-shivanjali-works {
     background: #f0fff3;
   }
@@ -508,7 +519,9 @@ body {
   .be-part-of-change-child {
     width: 300px;
   }
-
+  .be-part-of-change-child figcaption{
+    margin:0 auto;
+  }
   #exclamatory-partOfChange {
     width: 20%;
     height: auto;
