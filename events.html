@@ -102,7 +102,7 @@
         <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
       </p>
       <p id="blue-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
-      <button class="readMore-1">Read More</button>
+      <button class="readMore-1" id="modalBlue">Read More</button>
     </div>
   </div>
   <div class="events-d-container-2">
@@ -112,7 +112,7 @@
         <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
       </p>
       <p id="darkg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
-      <button class="readMore-2">Read More</button>
+      <button class="readMore-2" id="modalightgreen">Read More</button>
     </div>
     <div class="events-d-child-4">
       <img src="./images/DSC_0547-1.JPG" alt="image" />
@@ -126,7 +126,7 @@
         <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
       </p>
       <p id="lightg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
-      <button class="readMore-1">Read More</button>
+      <button class="readMore-1" id="modaldarkgreen">Read More</button>
     </div>
   </div>
   <h1>Page - 1</h1>
@@ -144,7 +144,7 @@
         <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
       </p>
       <p id="blue-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
-      <button class="readMore-1">Read More</button>
+      <button class="readMore-1" id="modalBlue">Read More</button>
     </div>
   </div>
   <div class="events-d-container-2">
@@ -154,7 +154,7 @@
         <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
       </p>
       <p id="darkg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
-      <button class="readMore-2">Read More</button>
+      <button class="readMore-2" id="modalightgreen">Read More</button>
     </div>
     <div class="events-d-child-4">
       <img src="./images/DSC_0547-1.JPG" alt="image" />
@@ -168,7 +168,7 @@
         <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
       </p>
       <p id="lightg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
-      <button class="readMore-1">Read More</button>
+      <button class="readMore-1" id="modaldarkgreen">Read More</button>
     </div>
   </div>
   <h1>Page - 2</h1>
@@ -185,20 +185,57 @@
 
 
 <!-- modals -->
-<div class="modal">
+<div class="modal" id="blue-modal">
   <div class="modal-container">
     <div class="modal-child">
+      <span id="closebtn">&times;</span>
       <h2>Winter Donation Drive</h2>
-      <p>lorem ipsum dolor sit amet 
-        lorem inpjfajkfdjal dolore sit
-        lorem inpusjm dolor sit amet
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Est perspiciatis ex reprehenderit maxime. Harum maiores deserunt 
+        magnam, repellendus vero repudiandae, dolorem iusto nihil 
+        laboriosam esse et mollitia alias, facere dicta?
       </p>
     </div>
     <div class="modal-child">
-      
+      <img src="./images/events-pic.jpg" alt="">
     </div>
   </div>
 </div>
+
+<div class="modal" id="lightgreen-modal">
+  <div class="modal-container" id="modal-colr">
+    <div class="modal-child">
+      <span id="closebtn1">&times;</span>
+      <h2>Winter Donation Drive</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Est perspiciatis ex reprehenderit maxime. Harum maiores deserunt 
+        magnam, repellendus vero repudiandae, dolorem iusto nihil 
+        laboriosam esse et mollitia alias, facere dicta?
+      </p>
+    </div>
+    <div class="modal-child">
+      <img src="./images/events-pic.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="darkgreen-modal">
+  <div class="modal-container" id="modal-colr-1">
+    <div class="modal-child">
+      <span id="closebtn2">&times;</span>
+      <h2>Winter Donation Drive</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Est perspiciatis ex reprehenderit maxime. Harum maiores deserunt 
+        magnam, repellendus vero repudiandae, dolorem iusto nihil 
+        laboriosam esse et mollitia alias, facere dicta?
+      </p>
+    </div>
+    <div class="modal-child">
+      <img src="./images/events-pic.jpg" alt="">
+    </div>
+  </div>
+</div>
+
 
 <!-- modals -->
 
@@ -322,6 +359,7 @@
 
     <!-- Important Links Starts -->
     <script src="./js/events.js"></script>
+    <script src="./js/modals.js"></script>
     <!-- Important Links Ends -->
   </body>
   <!------------------------------->
