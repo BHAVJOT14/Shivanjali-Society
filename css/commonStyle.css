@@ -283,16 +283,13 @@ nav {
   background-color: #1e90ff;
 }
 
-#fb:hover {
+#fb:hover,
+#linkedin:hover {
   background-color: #2a2add;
 }
 
 #tweet:hover {
   background-color: #44bce4;
-}
-
-#linkedin:hover {
-  background-color: #2a2add;
 }
 
 #youtube:hover {
