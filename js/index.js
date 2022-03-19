@@ -59,7 +59,7 @@ setInterval(() => {
     count++;
     counter.innerText = count + "+";
   }
-}, 180);
+}, 230);
 
 // food kits-box
 var counter1 = document.getElementById("distributed");
@@ -69,7 +69,7 @@ setInterval(() => {
     count1++;
     counter1.innerText = count1 + "+";
   }
-}, 20);
+}, 30);
 
 // winter kits box
 var counter2 = document.getElementById("winter-kits");
@@ -79,7 +79,7 @@ setInterval(() => {
     count2++;
     counter2.innerText = count2 + "+";
   }
-}, 320);
+}, 400);
 
 // donors
 var counter3 = document.getElementById("donors");
@@ -89,5 +89,5 @@ setInterval(() => {
     count3++;
     counter3.innerText = count3 + "+";
   }
-}, 230);
+}, 240);
 //------- ourImpact Section ends -------
