@@ -23,7 +23,7 @@
 /* events-section-d */
 .events-d {
   height: auto;
-  background: url("../images/bg-eventsPage.png") round;
+  background: url("../images/events-pg/bg-eventsPage.png") round;
   background-size: contain;
   padding: 40px 10px 40px 10px;
   display: none;
