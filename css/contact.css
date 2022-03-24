@@ -27,20 +27,21 @@ body {
 
 .contactus-child {
   width: 350px;
-  height: 350px;
+  height: 250px;
   text-align: center;
   background: #6fede6;
-  padding: 60px 0 60px 0;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .contactus-child img {
   width: 30%;
   height: auto;
+  margin:0 0 20px 0;
 }
 
 .contactus-child h2 {
   color: #333333;
   font-family: "Montserrat", sans-serif;
+  font-size:18px;
 }
 
 .contactus-child h2:hover,
@@ -57,45 +58,63 @@ body {
 }
 .contactus-child1 {
   width: 350px;
-  height: 350px;
+  height: 250px;
   text-align: center;
   background: #29d1c8;
-  padding: 60px 0 60px 0;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .contactus-child1 img {
   width: 30%;
-  height: auto;
+  height: auto; 
+  margin:0 0 20px 0;
 }
 
 .contactus-child1 h2 {
   color: #333333;
   font-family: "Montserrat", sans-serif;
   padding: 10px;
+  font-size:18px;
 }
 
 .contactus-child2 {
   width: 350px;
-  height: 350px;
+  height: 250px;
   text-align: center;
   background: #8bf6f0;
-  padding: 60px 0 60px 0;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .contactus-child2 img {
   width: 30%;
   height: auto;
+  margin:0 0 40px 0;
 }
 
 .contactus-child2 h2 {
   color: #333333;
   font-family: "Montserrat", sans-serif;
-  padding: 10px;
+  font-size:18px;
 }
 
 .section-contact-form {
   height: auto;
   padding: 30px 20px 30px 20px;
+  position: relative;
+}
+.section-contact-form::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  left: -50%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 40px;
+  background-size: 40px 100%;
+  background-image: linear-gradient(135deg,
+      #ffffff 25%,
+      transparent 25%),
+    linear-gradient(225deg, #ffffff 25%, transparent 25%);
+  background-position: 0 0;
 }
 
 .contactus-container2 {
@@ -108,6 +127,7 @@ body {
 
 .contactus-child3 {
   width: 500px;
+  height:550px;
   justify-content: center;
   align-items: center;
   background: #29d1c8;
@@ -126,8 +146,9 @@ body {
   padding: 30px 20px 30px 20px;
 }
 .contactus-child3 img {
-  width: 100%;
+  width: 80%;
   height: auto;
+  margin:20px 0 0 0;
 }
 #contactus-fb,
 #contactus-linkedin,
@@ -159,6 +180,7 @@ body {
 
 .contactus-child4 {
   width: 500px;
+  height:550px;
   background: #29d1c8;
   padding: 10px 20px 10px 20px;
   border-radius: 40px;
@@ -217,7 +239,6 @@ body {
   cursor: pointer;
   background: white;
   transition: ease 0.7s;
-  font-style: italic;
   transform: translateY(3px);
   box-shadow: 4px 5px #000000;
 }
@@ -292,6 +313,7 @@ body {
   }
   .contactus-child3 {
     width: 400px;
+    height:400px;
   }
 
   .contactus-child3 ul li {
@@ -306,6 +328,7 @@ body {
   }
   .contactus-child4 {
     width: 400px;
+    height:450px;
     margin: 20px 0 0 0;
   }
   .contactus-child4 h2,
@@ -352,11 +375,10 @@ body {
   }
   .contactus-child3 {
     width: 90px;
+    height:300px;
     padding: 20px;
     border-radius: 20px;
     order: 2;
-    /* for testing */
-    /* background:none; */
   }
   .contactus-child3 img {
     display: none;
@@ -370,23 +392,7 @@ body {
   #contactus-tweet {
     font-size: 24px;
     padding: 10px;
-    /* for testing */
-    /* color:white; */
   }
-  /* for testing */
-  /* #contactus-youtube{
-  background:red;
-}
-#contactus-fb{
-  background:#4267B2;
-}
-#contactus-linkedin{
-  background:#2a2add;
-}
-#contactus-tweet{
-  background:#44bce4;
-} */
-/* for testing */
   .contactus-child4 {
     width: 450px;
     margin: 20px 0 0 0;
