@@ -162,6 +162,16 @@
             <input type="email" name="email" id="emailId" placeholder="Enter Email Id" required>
             <input type="text" name="message" id="Message" pattern="[A-Za-z\s]{2,50}" placeholder="Your Message" required>
             <button type="submit">Submit</button>
+            <!-- <button id="button">Submit
+              <div class="check-box">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                    <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                </svg>
+                
+            </div>
+            </button> -->
+            <!-- https://codepen.io/sumeet1610/pen/abJeZXq 
+            this it the link of codepen-->
           </form>
         </div>
       </div>
@@ -302,6 +312,14 @@
   <!------------------------------->
   <!------------------------------->
 
+  <script>
+  const btn = document.querySelector("#btn");
+    const btnText = document.querySelector("#btnText");
+
+    btn.onclick = () => {
+        btnText.innerHTML = "Thanks";
+        btn.classList.add("active");
+    };</script>
   <link rel="stylesheet" href="./css/commonStyle.css" />
 
   <script src="./js/commonJs.js"></script>
