@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   text-decoration: none;
 }
@@ -36,13 +36,13 @@ body {
 .contactus-child img {
   width: 30%;
   height: auto;
-  margin:0 0 20px 0;
+  margin: 0 0 20px 0;
 }
 
 .contactus-child h2 {
   color: #333333;
   font-family: "Montserrat", sans-serif;
-  font-size:18px;
+  font-size: 18px;
 }
 
 .contactus-child h2:hover,
@@ -66,15 +66,15 @@ body {
 }
 .contactus-child1 img {
   width: 30%;
-  height: auto; 
-  margin:0 0 20px 0;
+  height: auto;
+  margin: 0 0 20px 0;
 }
 
 .contactus-child1 h2 {
   color: #333333;
   font-family: "Montserrat", sans-serif;
   padding: 10px;
-  font-size:18px;
+  font-size: 18px;
 }
 
 .contactus-child2 {
@@ -87,13 +87,13 @@ body {
 .contactus-child2 img {
   width: 30%;
   height: auto;
-  margin:0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
 .contactus-child2 h2 {
   color: #333333;
   font-family: "Montserrat", sans-serif;
-  font-size:18px;
+  font-size: 18px;
 }
 
 .section-contact-form {
@@ -101,7 +101,7 @@ body {
   padding: 30px 20px 30px 20px;
   position: relative;
 }
-.section-contact-form::after{
+.section-contact-form::after {
   content: "";
   position: absolute;
   right: 0;
@@ -111,9 +111,7 @@ body {
   display: block;
   height: 40px;
   background-size: 40px 100%;
-  background-image: linear-gradient(135deg,
-      #ffffff 25%,
-      transparent 25%),
+  background-image: linear-gradient(135deg, #ffffff 25%, transparent 25%),
     linear-gradient(225deg, #ffffff 25%, transparent 25%);
   background-position: 0 0;
 }
@@ -128,7 +126,7 @@ body {
 
 .contactus-child3 {
   width: 500px;
-  height:550px;
+  height: 550px;
   justify-content: center;
   align-items: center;
   background: #29d1c8;
@@ -149,7 +147,7 @@ body {
 .contactus-child3 img {
   width: 80%;
   height: auto;
-  margin:20px 0 0 0;
+  margin: 20px 0 0 0;
 }
 #contactus-fb,
 #contactus-linkedin,
@@ -181,7 +179,7 @@ body {
 
 .contactus-child4 {
   width: 500px;
-  height:550px;
+  height: 550px;
   background: #29d1c8;
   padding: 10px 20px 10px 20px;
   border-radius: 40px;
@@ -244,10 +242,11 @@ body {
   box-shadow: 4px 5px #000000;
 }
 
-.animate__swing{
---animate-duration:4s;
+.animate__swing {
+  --animate-duration: 4s;
 }
-/* button{
+
+#button {
   width: 270px;
   height: 80px;
   border: none;
@@ -257,29 +256,29 @@ body {
   font-size: 22px;
   border-radius: 40px;
   text-align: center;
-  box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden;
   cursor: pointer;
 }
 
-.check-box{
+.check-box {
   width: 80px;
   height: 80px;
   border-radius: 40px;
-  box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   right: -40px;
   opacity: 0;
 }
 
-.check-box svg{
+.check-box svg {
   width: 40px;
   margin: 20px;
 }
 
-svg path{
+svg path {
   stroke-width: 3;
   stroke: #fff;
   stroke-dasharray: 34;
@@ -287,27 +286,28 @@ svg path{
   stroke-linecap: round;
 }
 
-.active{
+.active {
   background: #ff2b75;
   transition: 1s;
 }
 
-.active .check-box{
+.active .check-box {
   right: 0;
   opacity: 1;
   transition: 1s;
 }
 
-.active p{
+.active p {
   margin-right: 125px;
   transition: 1s;
 }
 
-.active svg path{
+.active svg path {
   stroke-dashoffset: 0;
   transition: 1s;
   transition-delay: 1s;
-} */
+}
+
 @media screen and (max-width: 580px) {
   .contactus-section1 {
     padding: 20px;
@@ -379,7 +379,7 @@ svg path{
   }
   .contactus-child3 {
     width: 400px;
-    height:400px;
+    height: 400px;
   }
 
   .contactus-child3 ul li {
@@ -394,7 +394,7 @@ svg path{
   }
   .contactus-child4 {
     width: 400px;
-    height:450px;
+    height: 450px;
     margin: 20px 0 0 0;
   }
   .contactus-child4 h2,
@@ -441,7 +441,7 @@ svg path{
   }
   .contactus-child3 {
     width: 90px;
-    height:300px;
+    height: 300px;
     padding: 20px;
     border-radius: 20px;
     order: 2;
@@ -483,4 +483,3 @@ svg path{
     width: 380px;
   }
 }
-
