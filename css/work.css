@@ -1,0 +1,242 @@
+.pageBody {
+  padding: 5% 0 10%;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* Button Start */
+/* ----------------------------- */
+/* ----------------------------- */
+.pageBody .projectButtons_mainDiv {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  max-width: 90%;
+  width: 90%;
+  margin: 0 0 5% 5%;
+  background: #e4f0e7;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+.pageBody .projectButtons_mainDiv .projectButton {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-weight: 600;
+  background: #6af1b1;
+  width: 20%;
+  padding: 1rem 0;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
+}
+
+.pageBody .projectButtons_mainDiv .projectButton p {
+  color: #000000b6;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.pageBody .projectButtons_mainDiv .project-1,
+.pageBody .projectButtons_mainDiv .project-2,
+.pageBody .projectButtons_mainDiv .project-3 {
+  padding: 1.8rem 0;
+}
+
+.pageBody .projectButtons_mainDiv .projectButton:hover {
+  background: #6af1b288;
+  cursor: pointer;
+}
+
+.pageBody .projectButtons_mainDiv .projectButton:active {
+  box-shadow: none;
+}
+
+.pageBody .projectButtons_mainDiv .project-1:hover .project-1_para,
+.pageBody .projectButtons_mainDiv .project-2:hover .project-2_para,
+.pageBody .projectButtons_mainDiv .project-3:hover .project-3_para,
+.pageBody .projectButtons_mainDiv .project-4:hover .project-4_para {
+  color: #000000;
+}
+
+.pageBody .projectButtons_mainDiv .projectButton img {
+  display: inline-block;
+  width: 20%;
+  margin: 0 0 5% 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.pageBody .projectButtons_mainDiv .project-1:hover .project-1_img,
+.pageBody .projectButtons_mainDiv .project-2:hover .project-2_img,
+.pageBody .projectButtons_mainDiv .project-3:hover .project-3_img,
+.pageBody .projectButtons_mainDiv .project-4:hover .project-4_img {
+  visibility: visible;
+}
+
+.activeButton {
+  box-shadow: 0 0 15px 0px #000000 !important;
+  transform: scale(1.02);
+}
+
+.activeButton img {
+  visibility: visible !important;
+}
+
+.activeButton p {
+  color: #000000 !important;
+}
+
+.bottomFixedProjectButtons_mainDiv {
+  position: fixed;
+  bottom: 5%;
+  margin: 0 0 0 5% !important;
+  padding: 0.8rem !important;
+  background: #6af1b1 !important;
+  animation: rubberBandPattern 1s ease-in-out both;
+}
+
+.bottomFixedProjectButtons {
+  padding: 0.8rem 2rem !important;
+  display: block;
+  background: #e4f0e7 !important;
+  width: auto !important;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
+}
+
+.bottomFixedProjectButtons img {
+  display: none !important;
+}
+
+@keyframes rubberBandPattern {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* Button End */
+/* ----------------------------- */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* Project gists Start */
+/* ----------------------------- */
+/* ----------------------------- */
+.pageBody .projectGists_mainDiv {
+  display: block;
+  margin: 0 0 5% 0;
+}
+
+.pageBody .projectGists_mainDiv .projectGist {
+  display: none;
+  width: 97%;
+  height: 60vh;
+  margin: 0 0 0 1.5%;
+  border-radius: 20px;
+}
+
+.pageBody .projectGists_mainDiv .projectGist img {
+  display: block;
+  width: 100%;
+  height: 60vh;
+  border-radius: 20px;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* Project Gists End */
+/* ----------------------------- */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* Project Timeline Start */
+/* ----------------------------- */
+/* ----------------------------- */
+.pageBody .projectTimeLine_mainDiv {
+  display: block;
+  margin: 0 0 5% 0;
+}
+
+.pageBody .projectTimeLine_mainDiv .projectTimeLine {
+  display: none;
+  width: 95%;
+  height: 100vh;
+  margin: 0 0 0 2.5%;
+  border-radius: 20px;
+}
+
+.pageBody .projectTimeLine_mainDiv .projectTimeLine img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* Project Timeline End */
+/* ----------------------------- */
+/* ----------------------------- */
+
+/* ----------------------------- */
+/* ----------------------------- */
+/* Project members Start */
+/* ----------------------------- */
+/* ----------------------------- */
+.pageBody .projectMembers_mainDiv {
+  display: block;
+  width: 90%;
+  height: 100vh;
+  margin: 0 0 0 5%;
+  border-radius: 20px;
+  background: red;
+}
+/* ----------------------------- */
+/* ----------------------------- */
+/* Project members Start */
+/* ----------------------------- */
+/* ----------------------------- */
+
+.fadeIn {
+  animation: fade 1.1s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

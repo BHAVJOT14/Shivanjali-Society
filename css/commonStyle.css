@@ -346,26 +346,23 @@ nav {
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #e1e1e1;
+  background: #6af1b1;
   border: 0px none #ff0000;
   border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff;
+  background: #6af1b1;
 }
 ::-webkit-scrollbar-thumb:active {
   background: #e6fdef;
 }
 ::-webkit-scrollbar-track {
-  background: #666666;
-  border: 0px none #ffffff;
+  background: #e6fdef;
+  border: 0px none #6af1b1;
   border-radius: 0px;
 }
-::-webkit-scrollbar-track:hover {
-  background: #666666;
-}
 ::-webkit-scrollbar-track:active {
-  background: #333333;
+  background: #6af1b1;
 }
 ::-webkit-scrollbar-corner {
   background: transparent;

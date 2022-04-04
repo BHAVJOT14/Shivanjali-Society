@@ -191,6 +191,7 @@ body {
   font-size: 40px;
   font-weight: 900;
 }
+
 .contactus-child4 h3 {
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
@@ -203,6 +204,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .contactus-child4 input {
   margin: 30px 0 40px 0;
   border: none;
@@ -224,21 +226,28 @@ body {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
+
 .contactus-child4 button {
-  width:55%;
+  width: 40%;
   height: 55px;
-  padding: 10px 5px;
-  border-radius: 40px;
-  font-size: 22px;
-  background:#ffa500;
-  color:#ffffff;
+  background: #ffa500;
+  color: #ffffff;
   margin: 10px 0 0 0;
-  border:none;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  border: 1px solid #ffa500;
+  box-shadow: 5px 5px #999;
+  transition: 0.2s ease-in-out;
 }
+
 .contactus-child4 button:hover {
   cursor: pointer;
-background:#f00d0d;
-  transition: 0.7s ease-in-out;
+}
+
+.contactus-child4 button:active {
   box-shadow: none;
 }
 
@@ -258,13 +267,12 @@ background:#f00d0d;
   box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.5);
   position: absolute;
   top: -10px;
-  right: -40px;
   opacity: 0;
 }
 
 .check-box svg {
   width: 40px;
-  margin: 20px;
+  margin: 20% 0 0 0;
 }
 
 svg path {
@@ -275,19 +283,14 @@ svg path {
   stroke-linecap: round;
 }
 
-.active {
-  background: #ff2b75;
-  transition: 1s;
-}
-
 .active .check-box {
-  right: 0;
+  right: -10px;
   opacity: 1;
   transition: 1s;
 }
 
 .active p {
-  margin-right: 125px;
+  margin-right: 50px;
   transition: 1s;
 }
 
@@ -301,6 +304,7 @@ svg path {
   .contactus-section1 {
     padding: 20px;
   }
+
   #contact-board {
     margin: 100px 0 0 0;
     width: 50%;
@@ -309,6 +313,7 @@ svg path {
     transform: none;
     text-align: center;
   }
+
   .contactus-container {
     margin: 20px 0 0 0;
   }
@@ -322,14 +327,17 @@ svg path {
     border-radius: 20px;
     background: #6fede6;
   }
+
   .contactus-child img,
   .contactus-child2 img {
     width: 20%;
     margin: 0 0 20px 0;
   }
+
   .contactus-child h2 {
     font-size: 16px;
   }
+
   .contactus-container1 {
     margin: 20px 0 0 0;
   }
@@ -338,6 +346,7 @@ svg path {
     width: 20%;
     margin: 0 0 20px 0;
   }
+
   .contactus-child1 h2 {
     padding: 10px;
     font-size: 16px;
@@ -360,12 +369,15 @@ svg path {
   .contactus-child2 h2 {
     font-size: 16px;
   }
+
   .section-contact-form {
     padding: 20px;
   }
+
   .contactus-container2 {
     margin: 0;
   }
+
   .contactus-child3 {
     width: 400px;
     height: 400px;
@@ -374,6 +386,7 @@ svg path {
   .contactus-child3 ul li {
     padding: 20px 10px 20px 10px;
   }
+
   #contactus-fb,
   #contactus-linkedin,
   #contactus-youtube,
@@ -381,54 +394,68 @@ svg path {
     font-size: 20px;
     padding: 10px;
   }
+
   .contactus-child4 {
     width: 400px;
     height: 450px;
     margin: 20px 0 0 0;
   }
+
   .contactus-child4 h2,
   .contactus-child4 h3 {
     font-size: 16px;
   }
+
   .contactus-child4 form {
     margin: 10px 0 10px 0;
   }
+
   .contactus-child4 input {
     width: 100%;
     font-size: 16px;
   }
+
   .contactus-child4 input::placeholder {
     font-size: 16px;
   }
+
   .contactus-child4 button {
     padding: 5px;
     font-size: 16px;
-    width:60%;
+    width: 50%;
+    max-width: 50%;
   }
 }
+
 @media screen and (min-width: 581px) and (max-width: 840px) {
   .contactus-section1 {
     padding: 20px 0 0 0;
   }
+
   #contact-board {
     margin: 100px 0 0 0;
     width: 40%;
     position: relative;
     left: 30%;
   }
+
   .contactus-container {
     margin: 30px 0 0 0;
   }
+
   .contactus-container1 {
     margin: 10px 0 0 0;
   }
+
   .contactus-container2 {
     justify-content: space-around;
   }
+
   .contactus-child1,
   .contactus-child2 {
     margin: 20px 0 0 0;
   }
+
   .contactus-child3 {
     width: 90px;
     height: 300px;
@@ -436,12 +463,15 @@ svg path {
     border-radius: 20px;
     order: 2;
   }
+
   .contactus-child3 img {
     display: none;
   }
+
   .contactus-child3 ul li {
     padding: 20px;
   }
+
   #contactus-fb,
   #contactus-linkedin,
   #contactus-youtube,
@@ -449,12 +479,15 @@ svg path {
     font-size: 24px;
     padding: 10px;
   }
+
   .contactus-child4 {
     width: 450px;
     margin: 20px 0 0 0;
   }
+
   .contactus-child4 button {
     padding: 5px;
+    width: 45%;
   }
 }
 
@@ -463,16 +496,20 @@ svg path {
     margin: 20px 0 0 0;
     justify-content: space-between;
   }
+
   .contactus-container2 {
     justify-content: space-between;
   }
+
   .contactus-child3 {
     width: 380px;
   }
+
   .contactus-child4 {
     width: 380px;
   }
-  .contactus-child4 button{
-    width:60%;
+
+  .contactus-child4 button {
+    width: 55%;
   }
 }
