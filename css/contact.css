@@ -300,6 +300,23 @@ svg path {
   transition-delay: 1s;
 }
 
+@media screen and (min-width: 280px) and (max-width: 380px) {
+  .contactus-child4 button {
+    padding: 0;
+    height: 45px;
+    font-size: 16px;
+    width: 50%;
+  }
+  .check-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+  }
+  .check-box svg {
+    width: 45px;
+    margin:10% 0 0 0;
+  }
+}
 @media screen and (max-width: 580px) {
   .contactus-section1 {
     padding: 20px;
@@ -418,13 +435,14 @@ svg path {
   .contactus-child4 input::placeholder {
     font-size: 16px;
   }
-
   .contactus-child4 button {
-    padding: 5px;
-    font-size: 16px;
     width: 50%;
-    max-width: 50%;
   }
+  .check-box {
+    width: 70px;
+    height: 70px;
+  }
+
 }
 
 @media screen and (min-width: 581px) and (max-width: 840px) {
