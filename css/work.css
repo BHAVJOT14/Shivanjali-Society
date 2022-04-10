@@ -240,3 +240,26 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width:540px){
+  .pageBody .projectButtons_mainDiv{
+    width:100%;
+    margin:28% 0 10% 0;
+    max-width:100%;
+  }
+  .pageBody .projectButtons_mainDiv .projectButton{
+    width:100%;
+    border-radius:5px;
+
+  }
+  .pageBody .projectButtons_mainDiv .projectButton p {
+    font-size:14px;
+  }
+  .pageBody .projectButtons_mainDiv .project-1,
+.pageBody .projectButtons_mainDiv .project-2,
+.pageBody .projectButtons_mainDiv .project-3,
+.pageBody .projectButtons_mainDiv .project-4{
+margin:8px;
+padding:10px 5px 10px 5px;
+}
+}
