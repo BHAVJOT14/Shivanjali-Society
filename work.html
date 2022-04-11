@@ -21,27 +21,27 @@
     />
 
     <!-- favicon -->
-    <!-- <link
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./favicon/apple-touch-icon.png"
+      href="./assets/favicon/apple-touch-icon.png"
     />
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./favicon/favicon-32x32.png"
+      href="./assets/favicon/favicon-32x32.png"
     />
 
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./favicon/favicon-16x16.png"
+      href="./assets/favicon/favicon-16x16.png"
     />
 
-    <link rel="manifest" href="./favicon/site.webmanifest" /> -->
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
     <link rel="stylesheet" href="./css/work.css" />
   </head>
@@ -54,24 +54,23 @@
     <!--???---------------------------------???-->
     <!--???---------------------------------???-->
 
-    <header id="header">
+    <nav class="main_header">
       <div class="logo">
-        <a href="./">
-          <img src="./images/Shivanjali_Logo.png" alt="Shivanjali NGO Logo" />
-        </a>
+        <img src="./images/Shivanjali_Logo.png" alt="Shivanjali NGO Logo" />
       </div>
-      <div id="toggle"></div>
-      <div id="navbar">
-        <ul>
-          <li><a href="./">Home</a></li>
-          <li><a href="./about.html">About Us</a></li>
-          <li><a href="./events.html">Events</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="./work.html">What We Do</a></li>
-          <li><a href="./contact.html">Contact Us</a></li>
-        </ul>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-    </header>
+      <ul class="nav-links">
+        <li><a href="./">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./events.html">Events</a></li>
+        <li><a href="./work.html">What we do</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
 
     <!--???---------------------------------???-->
     <!--???---------------------------------???-->
@@ -87,6 +86,119 @@
     <!--!!!!        COMMENT ONLY.         !!!!-->
     <!--???--------------------------------???-->
     <!--???--------------------------------???-->
+
+    <section class="pageBody">
+      <div class="projectButtons_mainDiv">
+        <div
+          class="projectButton project-1"
+          id="projectButton-1"
+          onclick="changeSlide(1)"
+        >
+          <p class="project-1_para" id="project-1_para">Shivanjali Food</p>
+          <img
+            src="./images/work-pg/Food-Png.png"
+            alt="Shivanjali Food"
+            class="project-1_img"
+            id="project-1_img"
+          />
+        </div>
+
+        <div
+          class="projectButton project-2"
+          id="projectButton-2"
+          onclick="changeSlide(2)"
+        >
+          <p class="project-2_para">Shivanjali Shiksha Center</p>
+          <img
+            src="./images/work-pg/Education-png.png"
+            alt="Shivanjali Shiksha Center"
+            class="project-2_img"
+          />
+        </div>
+
+        <div
+          class="projectButton project-3"
+          id="projectButton-3"
+          onclick="changeSlide(3)"
+        >
+          <p class="project-3_para">Shivanjali Cloth Donation</p>
+          <img
+            src="./images/work-pg/donation-Png.png"
+            alt="Shivanjali Cloth Donation"
+            class="project-3_img"
+          />
+        </div>
+
+        <div
+          class="projectButton project-4"
+          id="projectButton-4"
+          onclick="changeSlide(4)"
+        >
+          <p class="project-4_para">Shivanjali's Shared Birthday Programme</p>
+          <img
+            src="./images/work-pg/birthday.png"
+            alt="Shivanjali's Shared Birthday Programme"
+            class="project-4_img"
+          />
+        </div>
+      </div>
+
+      <div class="projectGists_mainDiv">
+        <div class="projectGist gist-1 fadeIn" id="projectGist-1">
+          <img src="./images/work-pg/test-1.jpg" alt="Shivanjali Food" />
+        </div>
+
+        <div class="projectGist gist-2 fadeIn" id="projectGist-2">
+          <img
+            src="./images/work-pg/test-2.jpg"
+            alt="Shivanjali Shiksha Center"
+          />
+        </div>
+
+        <div class="projectGist gist-3 fadeIn" id="projectGist-3">
+          <img
+            src="./images/work-pg/test-3.jpg"
+            alt="Shivanjali Cloth Donation"
+          />
+        </div>
+
+        <div class="projectGist gist-4 fadeIn" id="projectGist-4">
+          <img
+            src="./images/work-pg/test-4.jpg"
+            alt="Shivanjali's Shared Birthday Programme"
+          />
+        </div>
+      </div>
+
+      <div class="projectTimeLine_mainDiv">
+        <div class="projectTimeLine timeLine-1 fadeIn" id="projectTimeLine-1">
+          <img src="./images/work-pg/test-1.jpg" alt="Shivanjali Food" />
+        </div>
+
+        <div class="projectTimeLine timeLine-2 fadeIn" id="projectTimeLine-2">
+          <img
+            src="./images/work-pg/test-2.jpg"
+            alt="Shivanjali Shiksha Center"
+          />
+        </div>
+
+        <div class="projectTimeLine timeLine-3 fadeIn" id="projectTimeLine-3">
+          <img
+            src="./images/work-pg/test-3.jpg"
+            alt="Shivanjali Cloth Donation"
+          />
+        </div>
+
+        <div class="projectTimeLine timeLine-4 fadeIn" id="projectTimeLine-4">
+          <img
+            src="./images/work-pg/test-4.jpg"
+            alt="Shivanjali's Shared Birthday Programme"
+          />
+        </div>
+      </div>
+
+      <div class="projectMembers_mainDiv"></div>
+    </section>
 
     <!--???--------------------------------???-->
     <!--???--------------------------------???-->
@@ -110,7 +222,7 @@
               <li><a href="./">Home</a></li>
               <li><a href="./about.html">About Us</a></li>
               <li><a href="./events.html">Events</a></li>
-              <li><a href="#">Our Team</a></li>
+              <li><a href="./team.html">Our Team</a></li>
               <li><a href="./work.html">Our Projects</a></li>
               <li><a href="./contact.html">Contact Us</a></li>
             </ul>
@@ -119,9 +231,9 @@
         <div class="fchild-2">
           <div id="services">
             <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="./404.html">Blog</a></li>
+              <li><a href="./404.html">Portfolio</a></li>
+              <li><a href="./404.html">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
@@ -207,6 +319,8 @@
     <!-------- footer Ends -------->
 
     <!-- Important Links Starts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/work.js"></script>
     <!-- Important Links Ends -->
   </body>
   <!------------------------------->

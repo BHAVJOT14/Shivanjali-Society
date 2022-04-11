@@ -10,19 +10,21 @@ Website Link : <a href="https://www.shivanjalisociety.in/" target="_blank"> Shiv
 
 # 🎇 Shivanjali Society 🎇
 
-A NGO working in the field of poverty alleviation, education, and many other issues. 
+A NGO working in the field of poverty alleviation, education, and many other issues.
 
 # ✨ Tech Stack ✨
+
 > <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-best-web-design-psd-html-cms-development-ecommerce-6.png" width="200" alt="" />
 
 # ✨ Contributors ✨
+
   <a href="https://github.com/BHAVJOT14/Shivanjali-Society/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=BHAVJOT14/Shivanjali-Society" />
   </a>
 
 # 🎇How To Contribute 🎇
 
-***Read [contribution guidelines](./Contribute.md)***
+**_Read [contribution guidelines](./Contribute.md)_**
 
 To start contributing, follow the below guidelines:
 
@@ -37,10 +39,10 @@ To start contributing, follow the below guidelines:
 3. Get it assigned.
 
 4. Work on it and add comments for better understanding of code.
-  
-5. Make a pull request. 
 
-6. Wait for it to be merged 
+5. Make a pull request.
+
+6. Wait for it to be merged
 
 7. And WOAHLAAAAAAAA! 🎉 You contributed to this project.
 
@@ -60,12 +62,8 @@ git clone https://github.com/your_username/Shivanjali-Society
 cd Shivanjali-Society
 ```
 
-**4.** AND there is the project running in your browser.🎉 
+**4.** AND there is the project running in your browser.🎉
 
+_Note: It might takes upto 5-10mins to start._
 
-*Note: It might takes upto 5-10mins to start.*
-
-
-
-# 🎉🎉🎉 ___HAPPY CONTRIBUTING!___ 🎉🎉🎉
-
+# 🎉🎉🎉 **_HAPPY CONTRIBUTING!_** 🎉🎉🎉

@@ -19,29 +19,41 @@
       href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@300&family=Open+Sans:wght@700&family=Zen+Kurenaido&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- aos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <!-- favicon -->
-    <!-- <link
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./favicon/apple-touch-icon.png"
+      href="./assets/favicon/apple-touch-icon.png"
     />
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./favicon/favicon-32x32.png"
+      href="./assets/favicon/favicon-32x32.png"
     />
 
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./favicon/favicon-16x16.png"
+      href="./assets/favicon/favicon-16x16.png"
     />
 
-    <link rel="manifest" href="./favicon/site.webmanifest" /> -->
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
     <link rel="stylesheet" href="./css/events.css" />
   </head>
@@ -54,24 +66,23 @@
     <!--???---------------------------------???-->
     <!--???---------------------------------???-->
 
-    <header id="header">
+    <nav class="main_header">
       <div class="logo">
-        <a href="./">
-          <img src="./images/Shivanjali_Logo.png" alt="Shivanjali NGO Logo" />
-        </a>
+        <img src="./images/Shivanjali_Logo.png" alt="Shivanjali NGO Logo" />
       </div>
-      <div id="toggle"></div>
-      <div id="navbar">
-        <ul>
-          <li><a href="./">Home</a></li>
-          <li><a href="./about.html">About Us</a></li>
-          <li><a href="./events.html">Events</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="./work.html">What We Do</a></li>
-          <li><a href="./contact.html">Contact Us</a></li>
-        </ul>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-    </header>
+      <ul class="nav-links">
+        <li><a href="./">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./events.html">Events</a></li>
+        <li><a href="./work.html">What we do</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
 
     <!--???---------------------------------???-->
     <!--???---------------------------------???-->
@@ -87,6 +98,200 @@
     <!--!!!!        COMMENT ONLY.         !!!!-->
     <!--???--------------------------------???-->
     <!--???--------------------------------???-->
+
+    <!-- modals -->
+    <div class="modal" id="blue-modal">
+      <div class="modal-container">
+        <div class="modal-child">
+          <span id="closebtn"><i class="bx bx-x-circle"></i></span>
+          <h2>Winter Donation Drive</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            perspiciatis ex reprehenderit maxime. Harum maiores deserunt magnam,
+            repellendus vero repudiandae, dolorem iusto nihil laboriosam esse et
+            mollitia alias, facere dicta?
+          </p>
+        </div>
+        <div class="modal-child">
+          <img
+            src="./images/events-pg/modal-bordimg-1.png"
+            alt=""
+            id="exclam-top"
+          />
+          <img
+            src="./images/events-pg/modal-img.png"
+            alt="Modal telling about Shivanjali Events"
+          />
+          <img
+            src="./images/events-pg/modal-bordimg.png"
+            alt=""
+            id="exclam-bottom"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="lightgreen-modal">
+      <div class="modal-container" id="modal-colr">
+        <div class="modal-child">
+          <span id="closebtn1"><i class="bx bx-x-circle"></i></span>
+          <h2>Winter Donation Drive</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            perspiciatis ex reprehenderit maxime. Harum maiores deserunt magnam,
+            repellendus vero repudiandae, dolorem iusto nihil laboriosam esse et
+            mollitia alias, facere dicta?
+          </p>
+        </div>
+        <div class="modal-child">
+          <img
+            src="./images/events-pg/modal-bordimg-1.png"
+            alt=""
+            id="exclam-top"
+          />
+          <img
+            src="./images/events-pg/modal-img.png"
+            alt="Modal telling about Shivanjali Events"
+          />
+          <img
+            src="./images/events-pg/modal-bordimg.png"
+            alt=""
+            id="exclam-bottom"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="darkgreen-modal">
+      <div class="modal-container" id="modal-colr-1">
+        <div class="modal-child">
+          <span id="closebtn2"><i class="bx bx-x-circle"></i></span>
+          <h2>Winter Donation Drive</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            perspiciatis ex reprehenderit maxime. Harum maiores deserunt magnam,
+            repellendus vero repudiandae, dolorem iusto nihil laboriosam esse et
+            mollitia alias, facere dicta?
+          </p>
+        </div>
+        <div class="modal-child">
+          <img
+            src="./images/events-pg/modal-bordimg-1.png"
+            alt=""
+            id="exclam-top"
+          />
+          <img
+            src="./images/events-pg/modal-img.png"
+            alt="Modal telling about Shivanjali Events"
+          />
+          <img
+            src="./images/events-pg/modal-bordimg.png"
+            alt=""
+            id="exclam-bottom"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- modals -->
+
+    <section class="events-d">
+      <h1>Page - 1</h1>
+      <div class="events-d-container-1 animate__animated animate__fadeInDown">
+        <div class="events-d-child-1">
+          <img src="./images/events-pg/DSC_0705.JPG" alt="image" />
+        </div>
+        <div class="events-d-child-2">
+          <h2>Winter Donation Drive</h2>
+          <p id="blue-bx-time-map">
+            <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
+          </p>
+          <p id="blue-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
+          <button class="readMore-1" id="modalBlue">Read More</button>
+        </div>
+      </div>
+      <div
+        class="events-d-container-2 animate__animated animate__fadeInUp animate__delay-2s"
+      >
+        <div class="events-d-child-3">
+          <h2>Winter Donation <br />Drive</h2>
+          <p id="darkg-bx-time-map">
+            <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
+          </p>
+          <p id="darkg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
+          <button class="readMore-2" id="modalightgreen">Read More</button>
+        </div>
+        <div class="events-d-child-4">
+          <img src="./images/events-pg/DSC_0547-1.JPG" alt="image" />
+        </div>
+        <div class="events-d-child-5">
+          <img src="./images/events-pg/20220208_153747_0000.png" alt="image" />
+        </div>
+        <div class="events-d-child-6">
+          <h2>Winter Donation <br />Drive</h2>
+          <p id="lightg-bx-time-map">
+            <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
+          </p>
+          <p id="lightg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
+          <button class="readMore-1" id="modaldarkgreen">Read More</button>
+        </div>
+      </div>
+      <h1>Page - 1</h1>
+    </section>
+
+    <section class="events-d">
+      <h1>Page - 2</h1>
+      <div class="events-d-container-1 animate__animated animate__fadeInDown">
+        <div class="events-d-child-1">
+          <img src="./images/events-pg/DSC_0705.JPG" alt="image" />
+        </div>
+        <div class="events-d-child-2">
+          <h2>Winter Donation Drive</h2>
+          <p id="blue-bx-time-map">
+            <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
+          </p>
+          <p id="blue-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
+          <button class="readMore-1" id="modalBlue1">Read More</button>
+        </div>
+      </div>
+      <div
+        class="events-d-container-2 animate__animated animate__fadeInUp animate__delay-2s"
+      >
+        <div class="events-d-child-3">
+          <h2>Winter Donation <br />Drive</h2>
+          <p id="darkg-bx-time-map">
+            <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
+          </p>
+          <p id="darkg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
+          <button class="readMore-2" id="modalightgreen1">Read More</button>
+        </div>
+        <div class="events-d-child-4">
+          <img src="./images/events-pg/DSC_0547-1.JPG" alt="image" />
+        </div>
+        <div class="events-d-child-5">
+          <img src="./images/events-pg/20220208_153747_0000.png" alt="image" />
+        </div>
+        <div class="events-d-child-6">
+          <h2>Winter Donation <br />Drive</h2>
+          <p id="lightg-bx-time-map">
+            <i class="bx bx-time-five"></i> 1:30 PM - 04:30 PM
+          </p>
+          <p id="lightg-bx-time-map"><i class="bx bx-map"></i> Jaipur</p>
+          <button class="readMore-1" id="modaldarkgreen1">Read More</button>
+        </div>
+      </div>
+      <h1>Page - 2</h1>
+    </section>
+
+    <div class="events-d-container-3-btns">
+      <div class="events-d-btns-1" onclick="buttonNavigation(-1)">
+        <button class="prevBtn">PREV</button>
+      </div>
+      <div class="events-d-btns-2" onclick="buttonNavigation(1)">
+        <button class="nextBtn">NEXT</button>
+      </div>
+    </div>
+
+    <section class="cuttingdesign" id="cutting-design"></section>
 
     <!--???--------------------------------???-->
     <!--???--------------------------------???-->
@@ -110,7 +315,7 @@
               <li><a href="./">Home</a></li>
               <li><a href="./about.html">About Us</a></li>
               <li><a href="./events.html">Events</a></li>
-              <li><a href="#">Our Team</a></li>
+              <li><a href="./team.html">Our Team</a></li>
               <li><a href="./work.html">Our Projects</a></li>
               <li><a href="./contact.html">Contact Us</a></li>
             </ul>
@@ -119,9 +324,9 @@
         <div class="fchild-2">
           <div id="services">
             <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="./404.html">Blog</a></li>
+              <li><a href="./404.html">Portfolio</a></li>
+              <li><a href="./404.html">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
@@ -207,6 +412,8 @@
     <!-------- footer Ends -------->
 
     <!-- Important Links Starts -->
+    <script src="./js/events.js"></script>
+    <script src="./js/modals.js"></script>
     <!-- Important Links Ends -->
   </body>
   <!------------------------------->

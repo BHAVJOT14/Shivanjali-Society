@@ -28,28 +28,32 @@
       href="https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css"
     />
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- aos -->
+
     <!-- favicon -->
-    <!-- <link
+    <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./favicon/apple-touch-icon.png"
+      href="./assets/favicon/apple-touch-icon.png"
     />
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./favicon/favicon-32x32.png"
+      href="./assets/favicon/favicon-32x32.png"
     />
 
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./favicon/favicon-16x16.png"
+      href="./assets/favicon/favicon-16x16.png"
     />
 
-    <link rel="manifest" href="./favicon/site.webmanifest" /> -->
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
     <link rel="stylesheet" href="./css/index.css" />
   </head>
@@ -62,24 +66,23 @@
     <!--???---------------------------------???-->
     <!--???---------------------------------???-->
 
-    <header id="header">
+    <nav class="main_header">
       <div class="logo">
-        <a href="./">
-          <img src="./images/Shivanjali_Logo.png" alt="Shivanjali NGO Logo" />
-        </a>
+        <img src="./images/Shivanjali_Logo.png" alt="Shivanjali NGO Logo" />
       </div>
-      <div id="toggle"></div>
-      <div id="navbar">
-        <ul>
-          <li><a href="./">Home</a></li>
-          <li><a href="./about.html">About Us</a></li>
-          <li><a href="./events.html">Events</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="./work.html">What We Do</a></li>
-          <li><a href="./contact.html">Contact Us</a></li>
-        </ul>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
       </div>
-    </header>
+      <ul class="nav-links">
+        <li><a href="./">Home</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./events.html">Events</a></li>
+        <li><a href="./work.html">What we do</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
 
     <!--???---------------------------------???-->
     <!--???---------------------------------???-->
@@ -100,15 +103,15 @@
     <section class="slider-section">
       <div id="slider">
         <div class="slide">
-          <img src="./images/1.png" alt="Shiksha Kit ~ Shivanjali" />
+          <img src="./images/index-pg/slider-img-1.png" alt="Shiksha Kit ~ Shivanjali" />
         </div>
 
         <div class="slide">
-          <img src="./images/2.png" alt="Food Drive ~ Shivanjali" />
+          <img src="./images/index-pg/slider-img-2.png" alt="Food Drive ~ Shivanjali" />
         </div>
 
         <div class="slide">
-          <img src="./images/3.png" alt="Clothes Drive ~ Shivanjali" />
+          <img src="./images/index-pg/slider-img-3.png" alt="Clothes Drive ~ Shivanjali" />
         </div>
       </div>
       <div id="dots-con">
@@ -120,10 +123,10 @@
     <!-- Slider End  -->
 
     <!-- 4 Cards Start -->
-    <section class="cards">
-      <div class="card">
+    <section class="cards" id="section-separator-3">
+      <div class="card" data-aos="flip-right" data-aos-duration="1700">
         <div class="card-image">
-          <img src="./images/card img 1.png" alt="Feed the Needy" />
+          <img src="./images/index-pg/feed-img.png" alt="Feed the Needy" />
         </div>
         <div class="card-content">
           <h1>FEED THE NEEDY</h1>
@@ -131,9 +134,9 @@
           <a href="#">Read More</a>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-aos="flip-right" data-aos-duration="2000">
         <div class="card-image">
-          <img src="./images/card img 2.png" alt="Knowledge is never lost" />
+          <img src="./images/index-pg/knowledge-img.png" alt="Knowledge is never lost" />
         </div>
         <div class="card-content">
           <h1>KNOWLEDGE IS NEVER LOST</h1>
@@ -141,9 +144,9 @@
           <a href="#">Read More</a>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-aos="flip-right" data-aos-duration="2000">
         <div class="card-image">
-          <img src="./images/card img 3.png" alt="Donate a Blanket" />
+          <img src="./images/index-pg/donate-img.png" alt="Donate a Blanket" />
         </div>
         <div class="card-content">
           <h1>DONATE A BLANKET</h1>
@@ -151,9 +154,9 @@
           <a href="#">Read More</a>
         </div>
       </div>
-      <div class="card">
+      <div class="card" data-aos="flip-right" data-aos-duration="2000">
         <div class="card-image">
-          <img src="./images/card img 4.png" alt="Happiness Kit" />
+          <img src="./images/index-pg/happinesskit-img.png" alt="Happiness Kit" />
         </div>
         <div class="card-content">
           <h1>HAPPINESS KIT</h1>
@@ -166,12 +169,16 @@
 
     <!-- About Section Starts -->
     <section class="about-page">
-      <div class="about">
-        <div class="about-img">
-          <img src="./images/4.png" alt="What is Shivanjali?" />
+      <div class="about" id="section-separator">
+        <div class="about-img" data-aos="flip-down" data-aos-duration="2000">
+          <img src="./images/index-pg/whatIsShivanjali-img.png" alt="What is Shivanjali?" />
         </div>
-        <div class="about-content">
-          <h1>What is Shivanjali?</h1>
+        <div
+          class="about-content"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <h1 class="headingMain">What is Shivanjali?</h1>
           <p>
             Shivanjali is a leading Non-profit welfare functioning towards
             Empowering youth evolution. Shivanjali trusts that effervescent,
@@ -186,10 +193,10 @@
           <hr />
         </div>
       </div>
-      <div class="about">
-        <div class="about-content">
-          <h1>How did we start?</h1>
-          <p style="text-align: right">
+      <div class="about" id="section-separator-1">
+        <div class="about-content" data-aos="fade-down" data-aos-duration="2000">
+          <h1 class="headingMain rightAlignHeading">How did we start?</h1>
+          <p class="rightAlign">
             In 2019, we started an education project, which was focused on
             distributing food to local schools. The next step in this project
             was the 'Summer Break Programme 2020', which included various
@@ -203,16 +210,20 @@
           </p>
           <hr />
         </div>
-        <div class="about-img">
-          <img src="./images/5.png" alt="How did we start?" />
+        <div class="about-img" data-aos="flip-down" data-aos-duration="2000">
+          <img src="./images/index-pg/howDidWeStart-img.png" alt="How did we start?" />
         </div>
       </div>
-      <div class="about">
-        <div class="about-img">
-          <img src="./images/6.png" alt="When did it began?" />
+      <div class="about" id="section-separator-2">
+        <div class="about-img" data-aos="flip-down" data-aos-duration="2000">
+          <img src="./images/index-pg/whenDidItBegan-img.png" alt="When did it began?" />
         </div>
-        <div class="about-content">
-          <h1>When did it began?</h1>
+        <div
+          class="about-content"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <h1 class="headingMain">When did it began?</h1>
           <p>
             Shivanjali Society is the group of the youth of India which
             influences the betterment of children who are not able to reach the
@@ -234,9 +245,9 @@
     <!-- About Section Ends -->
 
     <!-- Testimonial Section Starts -->
-    <section class="testimonial">
+    <section class="testimonial" data-aos="fade-down" data-aos-duration="1000">
       <div class="container">
-        <h1><q> A word from our Contributors </q></h1>
+        <h1><q>A word from our Contributors</q></h1>
         <div class="row">
           <div class="col-sm-12">
             <div id="customers-testimonials" class="owl-carousel">
@@ -332,12 +343,20 @@
     <!-- Our Impact Section Starts -->
     <section class="our-impact-section">
       <div class="ourimpact-heading-container">
-        <div class="ourimpact-heading-child">
+        <div
+          class="ourimpact-heading-child"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <h1>Our Impact</h1>
         </div>
       </div>
       <div class="ourimpact-boxes-container">
-        <div class="ourimpact-boxes-child">
+        <div
+          class="ourimpact-boxes-child"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="ourimpact-boxes-child-container">
             <div class="ourimpact-boxes-child-container-green">
               <p>Number of <br />Volunteers</p>
@@ -359,7 +378,11 @@
             </div>
           </div>
         </div>
-        <div class="ourimpact-boxes-child">
+        <div
+          class="ourimpact-boxes-child"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <iframe
             src="https://www.youtube.com/embed/9yshlg3jHQA"
             title="YouTube video player"
@@ -376,16 +399,31 @@
     <!-- events-gallery-blog section Starts  -->
     <section class="events-gallery-blog">
       <div class="container-egb">
-        <div class="child-egb">
-          <img src="./images/events-pic.jpg" alt="Events-image" />
+        <div
+          class="child-egb"
+          onclick="location.href='./events.html'"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <img src="./images/index-pg/events-pic.jpg" alt="Events-image" />
           <h2>Events</h2>
         </div>
-        <div class="child-egb">
-          <img src="./images/gallery.jpeg" alt="Gallery-image" />
+        <div
+          class="child-egb"
+          onclick="location.href='./gallery.html'"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
+          <img src="./images/index-pg/gallery.jpeg" alt="Gallery-image" />
           <h2>Gallery</h2>
         </div>
-        <div class="child-egb">
-          <img src="./images/blog.jpeg" alt="Blogs-image" />
+        <div
+          class="child-egb"
+          onclick="location.href='./blog.html'"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <img src="./images/index-pg/blog.jpeg" alt="Blogs-image" />
           <h2>Blog</h2>
         </div>
       </div>
@@ -415,21 +453,23 @@
               <li><a href="./">Home</a></li>
               <li><a href="./about.html">About Us</a></li>
               <li><a href="./events.html">Events</a></li>
-              <li><a href="#">Our Team</a></li>
+              <li><a href="./team.html">Our Team</a></li>
               <li><a href="./work.html">Our Projects</a></li>
               <li><a href="./contact.html">Contact Us</a></li>
             </ul>
           </div>
         </div>
+
         <div class="fchild-2">
           <div id="services">
             <ul>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="./404.html">Blog</a></li>
+              <li><a href="./404.html">Portfolio</a></li>
+              <li><a href="./404.html">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
+
         <div class="fchild-2">
           <h2>Connect with us</h2>
           <div id="social-media">
@@ -533,6 +573,10 @@
   <link rel="stylesheet" href="./css/commonStyle.css" />
 
   <script src="./js/commonJs.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
   <!------------------------------->
   <!------------------------------->
